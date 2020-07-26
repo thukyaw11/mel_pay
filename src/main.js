@@ -9,7 +9,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuesax from 'vuesax'
 import 'vuesax/dist/vuesax.css'
-
+import vueScrollTo from 'vue-scrollto';
+Vue.use(vueScrollTo);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(Vuesax);

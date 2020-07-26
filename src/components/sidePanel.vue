@@ -47,7 +47,7 @@ export default {
         },
         {
           text: "သိထားသင့်သည်များ",
-          link: "Party",
+          link: "Content",
           icon: "fas fa-book-reader"
         },
 
@@ -76,6 +76,9 @@ export default {
   outline: none;
   padding: 7px;
   margin: 20px 0px;
+}
+.outlineN{
+  outline: none;
 }
 
 </style>

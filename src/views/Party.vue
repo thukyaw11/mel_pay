@@ -34,12 +34,12 @@
         v-for="(party,index) in partyLists"
         :key="index"
       >
-        <router-link :to="{name: 'PartyView', params: { id: party.id}}">
+        <router-link :to="{name: 'PartyView', params: { name: party.nameInEnglishAbb}}">
           <div class="party">
             <span style="width:75%;float:left;">{{party.nameInBurmese}}</span>
 
             <div class="imageContainer">
-              <img :src="getImgUrl(index)" class="partyImage" />
+              <img :src="getImgUrl(party.id)" class="partyImage" />
             </div>
           </div>
         </router-link>
@@ -50,6 +50,8 @@
 
 <script>
 import { partyList } from "../assets/PartyList";
+
+
 export default {
   data() {
     return {
@@ -99,7 +101,7 @@ export default {
   float: left;
   height: 80%;
 }
-.outlineN{
+.outlineN {
   outline: none;
 }
 </style>

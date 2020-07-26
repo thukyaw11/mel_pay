@@ -17,12 +17,32 @@ export default {
   name: "App",
   components: {
     sidePanel
-  }
+  },
 };
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+.knowledge_box {
+  background: #f8f8f8;
+  border-radius: 10px;
+  height: auto;
+  cursor: pointer;
+  padding: 20px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: 10px;
+}
+.height_fix{
+  height: 150px;
+}
+.icon-fade {
+  opacity: 0.3;
+  font-size: 40px;
+}
+.box_content_row {
+  display: flex;
+  justify-content: space-between;
+}
 
 html,
 body {
@@ -49,7 +69,7 @@ body {
   cursor: pointer;
   height: 80px;
 }
-.partyImage{
+.partyImage {
   height: 100%;
   float: left;
   width: 100%;
@@ -59,7 +79,8 @@ body {
 }
 .data_box,
 .partyDetail,
-.data_adv_box {
+.data_adv_box,
+.knowledge_box {
   animation: zoomIn ease 1s;
   -webkit-animation: zoomIn ease 1s;
   -moz-animation: zoomIn ease 1s;
@@ -119,7 +140,9 @@ body {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
 }
-.data_inner,.party:hover {
+.data_inner,
+.party,
+.knowledge_box:hover {
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
 }
 .card_title {
@@ -137,5 +160,4 @@ body {
 .outlineN {
   outline: none;
 }
-
 </style>
