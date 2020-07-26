@@ -51,7 +51,7 @@
   ],
   "husky": {
     "hooks": {   
-      "pre-commit": "echo Happy Coding!!"
+      "pre-commit": "echo $HUSKY_GIT_PARAMS"
     }
   }
 }
