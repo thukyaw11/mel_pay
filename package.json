@@ -51,7 +51,8 @@
   ],
   "husky": {
     "hooks": {   
-      "pre-commit": "echo $HUSKY_GIT_PARAMS"
+      "pre-commit": "yarn build",
+      "commit-msg" : "echo $HUSKY_GIT_PARAMS"
     }
   }
 }
