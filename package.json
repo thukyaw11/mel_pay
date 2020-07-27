@@ -12,10 +12,12 @@
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "husky": "^4.2.5",
+    "strip-ansi": "^6.0.0",
     "vue": "^2.6.11",
     "vue-navigation-bar": "^4.0.2",
     "vue-router": "^3.2.0",
     "vue-scrollto": "^2.18.1",
+    "vue-share-buttons": "^1.1.0",
     "vuesax": "^4.0.1-alpha.23",
     "vuex": "^3.4.0"
   },
@@ -50,9 +52,8 @@
     "not dead"
   ],
   "husky": {
-    "hooks": {   
-      "pre-commit": "yarn build",
-      "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS"
+    "hooks": {
+      "pre-commit": "yarn build"
     }
   }
 }

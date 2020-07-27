@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import { partyList } from "../assets/PartyList";
 import { roomList } from "../assets/roomList";
+import { contentList } from "../assets/ContentList";
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,17 @@ const routes = [
     beforeEnter(to, from, next) {
       to.params.child = roomList.rooms.filter(element => {
         return (element.text == to.params.roomid)
+      });
+      next();
+    }
+  },
+  {
+    path: '/content/:roomid/:childroomid',
+    name: 'ContentView',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ContentView.vue'),
+    beforeEnter(to, from, next) {
+      to.params.content = contentList.filter(element => {
+        return (element.roomTitle == to.params.childroomid)
       });
       next();
     }
