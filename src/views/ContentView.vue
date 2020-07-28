@@ -8,8 +8,8 @@
     </div>
     <div class="knowledge_box">
       <p v-html="content.content[0].roomContent"></p>
-      <facebook-button shareDescription="Where voters meet" url="https://melpayv2.netlify.app"></facebook-button>
-      <messanger-button shareDescription="Where voters meet" url="https://melpayv2.netlify.app"></messanger-button>
+      <facebook-button shareDescription="Where" :url="getShareableUrl()"></facebook-button>
+      <messanger-button shareDescription="Where voters meet" :url="getShareableUrl()"></messanger-button>
     </div>
   </b-col>
 </template>
@@ -27,6 +27,11 @@ export default {
   components: {
     MessangerButton,
     FacebookButton
+  },
+  methods:{
+    getShareableUrl(){
+      return `https://melpayv2.netlify.app/content/${this.content.roomid}/${this.content.childroomid}`
+    }
   }
 };
 </script>
