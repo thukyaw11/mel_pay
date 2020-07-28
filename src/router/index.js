@@ -35,6 +35,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Content.vue')
   },
   {
+    path: '/survey',
+    name: 'Survey',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Survey.vue')
+  },
+  {
     path: '/content/:roomid',
     name: 'ContentListView',
     component: () => import(/* webpackChunkName: "about" */ '../views/ContentListView.vue'),
@@ -51,10 +56,15 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/ContentView.vue'),
     beforeEnter(to, from, next) {
       to.params.content = contentList.filter(element => {
+        console.log(to.params);
         return (element.roomTitle == to.params.childroomid)
       });
       next();
     }
+  },
+  {
+  path: "*",
+  component: () => import(/* webpackChunkName: "about" */ '../views/NotFound.vue')
   }
 ]
 

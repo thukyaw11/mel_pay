@@ -4,9 +4,9 @@
       <b-col sm="12" md="3" xs="12" lg="3">
         <h2>ပါတီစာရင်း</h2>
       </b-col>
-      <b-col sm="12" md="6" xs="12" lg="6">
+      <b-col sm="12" md="9" xs="12" lg="9">
         <b-row>
-          <b-col sm="9" md="7" xs="9" lg="7">
+          <b-col sm="6" md="6" xs="6" lg="6">
             <vs-input
               type="text"
               state="primary"
@@ -15,10 +15,9 @@
               v-model="search"
             ></vs-input>
           </b-col>
-          <b-col sm="3" md="5" xs="3" lg="5">
-            <vs-button blue gradient class="outlineN">
-              <i class="fab fa-facebook"></i> Share on facebook
-            </vs-button>
+          <b-col sm="6" md="6" xs="6" lg="6">
+              <facebook-button style="float:left" shareDescription="Where" :url="getShareableUrl()"></facebook-button>
+              <messanger-button style="float:left" shareDescription="Where voters meet" :url="getShareableUrl()"></messanger-button>
           </b-col>
         </b-row>
       </b-col>
@@ -50,13 +49,18 @@
 
 <script>
 import { partyList } from "../assets/PartyList";
-
+import FacebookButton from "vue-share-buttons/src/components/FacebookButton";
+import MessangerButton from "vue-share-buttons/src/components/FacebookMessengerButton";
 
 export default {
   data() {
     return {
-      search: ""
+      search: "",
     };
+  },
+  components: {
+    MessangerButton,
+    FacebookButton,
   },
   methods: {
     getImgUrl(pic) {
@@ -65,12 +69,15 @@ export default {
       } catch (e) {
         return require("../assets/partyImages/noflag.jpg");
       }
+    },
+    getShareableUrl(){
+      return `https://melpayv2.netlify.app/#/parties`
     }
   },
   computed: {
     partyLists() {
       if (this.search) {
-        return partyList.filter(element => {
+        return partyList.filter((element) => {
           return (
             element.nameInEnglish
               .toLowerCase()
@@ -84,8 +91,8 @@ export default {
       } else {
         return partyList;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

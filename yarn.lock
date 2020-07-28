@@ -7878,6 +7878,13 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+survey-vue@^1.7.23:
+  version "1.7.23"
+  resolved "https://registry.yarnpkg.com/survey-vue/-/survey-vue-1.7.23.tgz#01b46b292d637edada890fff6dd07afcf8c68de6"
+  integrity sha512-fz2CxpjJ++YkMrDa6TaFMYeKZoX7fnCdAbVJJeczWXorzs6tcqRAR6H65sxKYPA69R/rCxNUoYnE/e6vsimk4w==
+  dependencies:
+    vue "^2.1.10"
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -8499,7 +8506,7 @@ vue2-transitions@^0.3.0:
   resolved "https://registry.yarnpkg.com/vue2-transitions/-/vue2-transitions-0.3.0.tgz#765fc0d743103fcfe2d10f431697d8873a075c17"
   integrity sha512-m1ad8K8kufqiEhj5gXHkkqOioI5sW0FaMbRiO0Tv2WFfGbO2eIKrfkFiO3HPQtMJboimaLCN4p/zL81clLbG4w==
 
-vue@^2.6.11, vue@^2.6.6:
+vue@^2.1.10, vue@^2.6.11, vue@^2.6.6:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==

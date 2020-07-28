@@ -308,7 +308,7 @@ export const contentList = [
         {
             id: "11",
             roomMetaTitle: '၂၀၀၈ ဖွဲ့စည်းပုံအခြေခံဥပဒေ၏ (Essence) ကိုကြည့်မည်ဆိုလျှင် အမျိုးသားညီလာခံ၏ ဦးတည်ချက် (၆) ရပ်ဟုဆိုနိုင်ပေမည်။',
-            roomTitle: '၂၀၀၈ ဖွဲ့စည်းပုံအခြေခံဥပဒေ',
+            roomTitle: '၂၀၀၈ ဖွဲ့စည်းပုံ အခြေခံဥပဒေ',
             roomContent: `<h3 style="text-align: center;"><strong>၂၀၀၈ ဖွဲ့စည်းပုံအခြေခံဥပဒေ</strong></h3>
         <p style="text-align: center;">၂၀၀၈ ဖွဲ့စည်းပုံအခြေခံဥပဒေ၏ (Essence) ကိုကြည့်မည်ဆိုလျှင် အမျိုးသားညီလာခံ၏ ဦးတည်ချက် (၆) ရပ်ဟုဆိုနိုင်ပေမည်။</p>
         <p style="text-align: center;">&nbsp;၎င်းတို့မှာ -</p>
@@ -332,7 +332,7 @@ export const contentList = [
         {
             id: "12",
             roomMetaTitle: 'ပြည်ထောင်စု အုပ်ချုပ်ရေးအာဏာ',
-            roomTitle: 'ပြည်ထောင်စု အုပ်ချုပ်ရေးအာဏာ',
+            roomTitle: 'ပြည်ထောင်စုအုပ်ချုပ်ရေးအာဏာ',
             roomContent: `
         <p style="text-align: center;"><strong>&ldquo;</strong><strong>သမ္မတ နှင့် အစိုးရအဖွဲ့</strong><strong>&rdquo;</strong></p>
         <p style="text-align: center;"><strong>&ldquo;အစိုးရအဖွဲ့၏သက်တမ်းသည် (၅) နှစ်ဖြစ်သည်။&rdquo;</strong></p>
@@ -344,8 +344,6 @@ export const contentList = [
         <p><strong>(ဃ) ပြည်ထောင်စုရှေ့နေချုပ်။</strong></p>
         <p><strong>[</strong><strong>ဖွဲ့စည်းပုံ အခြေခံဥပဒေ</strong><strong> - </strong><strong>အခန်း (၅) အုပ်ချုပ်ရေး</strong><strong>]</strong></p>
         <p><img src="https://i.ibb.co/4TrxCdw/YM-9.jpg" style="width:100%;height: 400px"></p>
-        <p>&nbsp;</p>
-        <p><img src="https://i.ibb.co/4TrxCdw/YM-8.jpg" style="width:100%;height: 400px"></p>
         `,
             imgSource: 'laws.jpg'
         },
@@ -410,7 +408,7 @@ export const contentList = [
         {
             id: "16",
             roomMetaTitle: "စစ်ဘက်ဆိုင်ရာတရားရုံးများ",
-            roomTitle: "စစ်ဘက်ဆိုင်ရာတရားရုံးများ",
+            roomTitle: "စစ်ဘက်ဆိုင်ရာ တရားရုံးများ",
             roomContent: `<p><strong>၃၁၉။ ပုဒ်မ ၂၉၃ ပုဒ်မခွဲ (ခ) အရ စစ်ဘက်ဆိုင်ရာတရားရုံးများကို နိုင်ငံတော်ဖွဲ့စည်းပုံ</strong> <strong>အခြေခံဥပဒေနှင့် အခြားဥပဒေအရဖွဲ့စည်း၍ တပ်မတော်သားများအတွက် တရားစီရင်ရ</strong><strong>မည်။</strong></p>`,
             imgSource: 'army.jpg'
         },

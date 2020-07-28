@@ -10,17 +10,21 @@
       <b-row>
         <div style="margin:0 auto">
           <span v-for="(icons,index) in iconListing" :key="index">
+            <a :href="icons.link" style="text-decoration:none;" target="_blank">
           <vs-button circle icon flat class="outlineN" style="float:left">
-            <i :class="icons"></i>
+            <i :class="icons.icon"></i>
           </vs-button>
+          </a>
           </span>
         </div>
       </b-row>
     </div>
+    <router-link to="/survey">
     <div class="welcome_box" style="text-align:center;cursor:pointer;margin-top:10px">
       <i class="fas fa-hands-helping" style="font-size: 30px;color:grey;"></i>
       <h3 style="margin-top:10px;font-family: 'Myanmar Sans Pro', sans-serif;">ပါဝင်ကူညီရန်</h3>
     </div>
+    </router-link>
     <br />
 
   </b-col>
@@ -57,7 +61,20 @@ export default {
           icon: "fas fa-poll-h"
         }
       ],
-      iconListing: ["fab fa-facebook","fas fa-globe","fas fa-question-circle"]
+      iconListing: [
+        {
+          icon: 'fab fa-facebook',
+          link: 'https://www.facebook.com/Mobile-Free-Education-Centre-1729345437330749/'
+        },
+        {
+          icon : 'fas fa-globe',
+          link: 'http://mobileducenter.org'
+        },
+        {
+          icon : 'fas fa-question-circle',
+          link: ''
+        }
+      ]
     };
   }
 };
