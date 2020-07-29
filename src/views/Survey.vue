@@ -28,7 +28,6 @@ export default {
     var json = {
       surveyId: "5e11bc54-3bbd-4e32-a8cd-49e83f5db6ac",
       surveyPostId: "a70fd251-4645-4a66-80b2-938d002682a2",
-      clientId: "62bf241f-7996-4c40-a7e6-43b620f11ad4"
     };
 
     var model = new SurveyVue.Model(json);
