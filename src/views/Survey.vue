@@ -11,8 +11,12 @@ import "bootstrap/dist/css/bootstrap.css";
 var Survey = SurveyVue.Survey;
 Survey.cssType = "bootstrap";
 
-SurveyVue.Serializer.addProperty("question", "tag:number");
-
+SurveyVue.Serializer.addProperty(
+  "question",
+  "tag:numberSurvey.defaultBootstrapMaterialCss.navigationButton = 'btn btn-green'"
+);
+SurveyVue.defaultBootstrapMaterialCss.rating.item = "btn btn-default my-rating";
+SurveyVue.StylesManager.applyTheme("bootstrapmaterial");
 export default {
   components: {
     Survey,
@@ -24,10 +28,10 @@ export default {
     var json = {
       surveyId: "5e11bc54-3bbd-4e32-a8cd-49e83f5db6ac",
       surveyPostId: "a70fd251-4645-4a66-80b2-938d002682a2",
+      clientId: "62bf241f-7996-4c40-a7e6-43b620f11ad4"
     };
 
     var model = new SurveyVue.Model(json);
-
 
     return {
       survey: model,
