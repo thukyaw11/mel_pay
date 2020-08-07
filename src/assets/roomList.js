@@ -86,9 +86,8 @@ export const roomList =
             roomId : '၉',
             text: "အထွေထွေ",
             children: [
-                { text: "one", link: "/room8/1" },
-                { text: "two", link: "/room8/2" },
-                { text: "three", link: "/room8/3" }
+                { text: "ရွေးကောက်ပွဲ ပြစ်မှုပြစ်ဒဏ်များ", link: 1 },
+                { text: "reference links", link: 2 },
             ]
         }
     ]

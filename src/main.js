@@ -10,10 +10,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuesax from 'vuesax'
 import 'vuesax/dist/vuesax.css'
 import vueScrollTo from 'vue-scrollto';
+import VueResource from 'vue-resource'
 Vue.use(vueScrollTo);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(Vuesax);
+Vue.use(VueResource);
 
 Vue.component("vue-navigation-bar", VueNavigationBar);
 Vue.config.productionTip = false

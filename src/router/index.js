@@ -25,7 +25,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/partyDetail.vue'),
     beforeEnter(to, from, next) {
       to.params.party = partyList.filter(element => {
-        return (element.nameInEnglishAbb == to.params.name)
+        return (element.nameInEnglish == to.params.name)
       });
       next();
     }
@@ -70,6 +70,7 @@ const routes = [
 
 const router = new VueRouter({
   base: process.env.BASE_URL,
+  mode: 'history',
   routes
 })
 

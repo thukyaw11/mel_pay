@@ -1,5 +1,5 @@
 <template>
-  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;">
+  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;" class="content">
     <div class="header_adv">
       <h3 class="header_adv_content">သိထားသင့်သည်များ</h3>
     </div>

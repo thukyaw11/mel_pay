@@ -5,7 +5,7 @@
     xs="12"
     lg="9"
     style="font-family: 'Myanmar Sans Pro', sans-serif;"
-    class="partyDetail"
+    class="partyDetail content"
   >
     <b-row>
       <b-col sm="1" md="1" xs="1" lg="1">
@@ -49,7 +49,7 @@
             </tr>
             <tr>
               <td>ခွင့်ပြုသည့်ပါတီအမှတ်စဉ် အမှတ်စဥ်</td>
-              <td>{{party.partyId}}</td>
+              <td> အမှတ်စဥ် ({{party.partyId}})</td>
             </tr>
             <tr>
               <td>ပါတီ ဥက္ကဋ္ဌ နှင့် ဗဟိုအလုပ်အမှုဆောင်စာရင်း</td>
@@ -69,7 +69,7 @@
             </tr>
           </tbody>
         </table>
-        <vs-button border size="xl" class="outlineN">
+        <vs-button border size="xl" class="outlineN" @click="downloadFile(party.nameInBurmese)">
           <i class="fas fa-file-download"></i>
           ပါတီမူဝါဒ</vs-button>
       </b-col>
@@ -85,6 +85,27 @@ export default {
       return this.$route.params.party[0];
     },
   },
+  methods:{
+    downloadFile(partyName){
+      this.$http({
+        method: 'get',
+        url: require('../assets/pdfs/partyOne.pdf'),
+        responseType: 'arraybuffer'
+      }).then(response=> {
+        console.log(response);
+        this.forceFileDownload(response,partyName);
+      }).catch(()=> console.log('error occured'))
+    },
+
+    forceFileDownload(response,partyName){
+      const url = window.URL.createObjectURL(new Blob([response.data]))
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download',`${partyName}.pdf`);
+      document.body.appendChild(link);
+      link.click()
+    }
+  }
 };
 </script>
 <style scoped>

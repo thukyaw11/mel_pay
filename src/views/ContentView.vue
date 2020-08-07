@@ -1,5 +1,5 @@
 <template>
-  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;">
+  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;" class="content">
     <div class="knowledge_box">
       <h3>
         <span @click="$router.go(-1)" class="link">{{content.roomid}}</span>

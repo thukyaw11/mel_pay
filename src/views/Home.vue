@@ -1,5 +1,5 @@
 <template>
-  <b-col sm="12" md="9" xs="12" lg="9" class="home">
+  <b-col sm="12" md="9" xs="12" lg="9" class="home content">
     <b-row>
       <b-col sm="12" md="6" xs="12" lg="6" style="margin-top:10px" class="data_box">
         <div class="data_inner" style="text-align:center;font-size:20px">

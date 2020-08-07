@@ -1,11 +1,12 @@
 <template>
-  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;">
+  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;" class="content">
     <h1>Survey</h1>
     <survey :survey="survey" />
   </b-col>
 </template>
 
 <script>
+
 import * as SurveyVue from "survey-vue";
 import "bootstrap/dist/css/bootstrap.css";
 var Survey = SurveyVue.Survey;
@@ -23,6 +24,9 @@ export default {
   },
   created() {
     console.log(Survey);
+  },
+  mounted(){
+      this.$refs.myDiv.scrollIntoView();
   },
   data() {
     var json = {

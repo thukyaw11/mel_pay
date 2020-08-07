@@ -1,7 +1,7 @@
 <template>
-  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;">
+  <b-col sm="12" md="9" xs="12" lg="9" style="font-family: 'Myanmar Sans Pro', sans-serif;" class="content">
     <b-row>
-      <b-col sm="12" md="3" xs="12" lg="3">
+      <b-col sm="12" md="3" xs="12" lg="3" id="element">
         <h2>ပါတီစာရင်း</h2>
       </b-col>
       <b-col sm="12" md="9" xs="12" lg="9">
@@ -33,7 +33,7 @@
         v-for="(party,index) in partyLists"
         :key="index"
       >
-        <router-link :to="{name: 'PartyView', params: { name: party.nameInEnglishAbb}}">
+        <router-link :to="{name: 'PartyView', params: { name: party.nameInEnglish}}">
           <div class="party">
             <span style="width:75%;float:left;">{{party.nameInBurmese}}</span>
 
@@ -104,7 +104,7 @@ export default {
 }
 .imageContainer {
   background: black;
-  width: 25%;
+  width: 20%;
   float: left;
   height: 80%;
 }
