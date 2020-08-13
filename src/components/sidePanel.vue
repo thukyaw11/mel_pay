@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-col sm="12" md="12" xs="12" lg="12" id="sidePanel">
+    <b-col sm="12" md="12" xs="12" lg="12">
       <div class="welcome_box">
         <span v-for="(sideBarList,index) in sideBarListing" :key="index">
           <vs-button block :to="{name : sideBarList.link}" class="vs-btn">
@@ -76,7 +76,7 @@ export default {
         },
         {
           text: "ရည်ရွယ်ချက်",
-          link: "Party",
+          link: "Intention",
           icon: "fas fa-award",
         },
         {
@@ -91,7 +91,7 @@ export default {
         },
         {
           text: "ရွေးကောက်ပွဲရလဒ်များ",
-          link: "Party",
+          link: "ElectionResultLists",
           icon: "fas fa-poll-h",
         },
       ],
@@ -151,7 +151,7 @@ export default {
   outline: none;
 }
 @media screen and (max-width: 400px) {
-  #sidePanel {
+  .welcome_box{
     display: none;
   }
   #sideBar {
@@ -171,6 +171,9 @@ export default {
 @media screen and (min-width: 400px) {
   #sideBar {
     display: none;
+  }
+  .welcome_box{
+    display: block;
   }
 }
 </style>

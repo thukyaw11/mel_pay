@@ -77,4 +77,7 @@ export default {
   flex-direction: column;
   margin: 20px;
 }
+.text{
+  font-size: 15px;
+}
 </style>

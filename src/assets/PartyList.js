@@ -464,22 +464,6 @@ export const partyList = [
     partyContact: '၀၉-၅၁၇၄၄၆၁၊ ၀၉-၇၃၁၂၇၉၁၄၊ ၀၉-၇၃၁၁၇၀၀၁'
   },
   {
-    id: 30,
-    nameInEnglish: 'People Democracy Party',
-    nameInEnglishAbb: 'PDP',
-    nameInBurmese: 'ပြည်သူ့ဒီမိုကရေစီပါတီ',
-    preBuildDate: '၁၃.၆.၂၀၁၁',
-    partypplAmount: '၁၆',
-    orderDate: '၂၀.၇.၂၀၁၁',
-    partyRegDate: '၃.၈.၂၀၁၁',
-    partyAllowDate: '၂၃.၉.၂၀၁၁',
-    partyId: '၄၃',
-    partyLeader: '-',
-    partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
-    partyLocation: 'အမှတ်(၃၉/ခ)၊ ရေသန့်ရပ်၊ တံခွန်တိုင်ရပ်ကွက်၊ ပြည်ကြီးတံခွန်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။',
-    partyContact: '၀၉-၄၃၁၇၆၀၈၀၊ ၀၂-၅၁၅၄၉၀၂၊ ၀၉-၄၃၀၁၁၄၅၆(ဦးသန်းထိုက်ဦး)၊ ၀၉-၄၃၀၆၀၉၁၀(ဦးအောင်မြင့်)'
-  },
-  {
     id: 31,
     nameInEnglish: 'New National Democracy Party',
     nameInEnglishAbb: 'NNDP',
@@ -989,22 +973,6 @@ export const partyList = [
     partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
     partyLocation: 'အမှတ်(၂၃၆/၂၃၈)၊ အခန်း(၈)၊ မဟာဘောဂလမ်းနှင့် ဗားဂရာလမ်းထောင့်၊ စမ်းချောင်းမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။',
     partyContact: 'ဝ၉-၇၃၂၄၈၅၆၇ (ဦးဇေယျ)၊ ဝ၉-၂၅၇၄၇၇၃၃၇'
-  },
-  {
-    id: 63,
-    nameInEnglish: '88 Generation Democracy Party',
-    nameInEnglishAbb: 'GDP',
-    nameInBurmese: '၈၈ မျိုးဆက်ဒီမိုကရေစီပါတီ',
-    preBuildDate: '၂၈.၇.၂၀၁၄',
-    partypplAmount: '၁၆',
-    orderDate: '၂၇.၄.၂၀၁၅',
-    partyRegDate: '၂၀.၅.၂၀၁၅',
-    partyAllowDate: '၁၆.၆.၂၀၁၅',
-    partyId: '၈၇',
-    partyLeader: 'ဒေါ်တင်တင်ချို (ဥက္ကဋ္ဌ)၊ ဦးတင်အေး (အထွေထွေအတွင်းရေးမှူး)',
-    partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
-    partyLocation: 'အမှတ် (၁၃၃)၊ ငန်းတေးလမ်းမကြီး၊ မော်လမြိုင်မြို့ ၊ မွန်ပြည်နယ်',
-    partyContact: '၀၉- ၃၃၃ ၅၁၈၃၂ ( ဦးစိုးမြင့် )'
   },
   {
     id: 64,

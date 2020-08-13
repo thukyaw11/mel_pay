@@ -49,7 +49,7 @@
             </tr>
             <tr>
               <td>ခွင့်ပြုသည့်ပါတီအမှတ်စဉ် အမှတ်စဥ်</td>
-              <td> အမှတ်စဥ် ({{party.partyId}})</td>
+              <td>အမှတ်စဥ် ({{party.partyId}})</td>
             </tr>
             <tr>
               <td>ပါတီ ဥက္ကဋ္ဌ နှင့် ဗဟိုအလုပ်အမှုဆောင်စာရင်း</td>
@@ -69,9 +69,10 @@
             </tr>
           </tbody>
         </table>
-        <vs-button border size="xl" class="outlineN" @click="downloadFile(party.nameInBurmese)">
-          <i class="fas fa-file-download"></i>
-          ပါတီမူဝါဒ</vs-button>
+        <button id="custom_button" @click="downloadFile(party.nameInBurmese,party.id)">
+          <slot v-if="loading">downloading ...</slot>
+          <slot v-else>မူဝါဒ ရယူရန်</slot>
+        </button>
       </b-col>
     </b-row>
   </b-col>
@@ -80,32 +81,43 @@
 
 <script>
 export default {
+  data() {
+    return {
+      loading: false,
+    };
+  },
   computed: {
     party() {
       return this.$route.params.party[0];
     },
   },
-  methods:{
-    downloadFile(partyName){
+  methods: {
+    downloadFile(partyName, index) {
       this.$http({
-        method: 'get',
-        url: require('../assets/pdfs/partyOne.pdf'),
-        responseType: 'arraybuffer'
-      }).then(response=> {
-        console.log(response);
-        this.forceFileDownload(response,partyName);
-      }).catch(()=> console.log('error occured'))
+        method: "get",
+        url: require(`../assets/pdfs/${index}.pdf`),
+        responseType: "arraybuffer",
+      })
+        .then((response) => {
+          this.forceFileDownload(response, partyName);
+          this.loading = true;
+
+          setTimeout(() => {
+            this.loading = false;
+          }, 3000);
+        })
+        .catch(() => console.log("error occured"));
     },
 
-    forceFileDownload(response,partyName){
-      const url = window.URL.createObjectURL(new Blob([response.data]))
-      const link = document.createElement('a');
+    forceFileDownload(response, partyName) {
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
       link.href = url;
-      link.setAttribute('download',`${partyName}.pdf`);
+      link.setAttribute("download", `${partyName}.pdf`);
       document.body.appendChild(link);
-      link.click()
-    }
-  }
+      link.click();
+    },
+  },
 };
 </script>
 <style scoped>
@@ -120,5 +132,18 @@ td {
 }
 .outlineN {
   outline: none;
+}
+#custom_button {
+  background:blue;
+  border: none;
+  padding: 8px;
+  transition: padding 1s;
+  color: #fff;
+  border-radius: 3px;
+  margin: 10px;
+  outline: none;
+}
+#custom_button:hover{
+  padding: 15px;
 }
 </style>

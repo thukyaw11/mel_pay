@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import { partyList } from "../assets/PartyList";
 import { roomList } from "../assets/roomList";
 import { contentList } from "../assets/ContentList";
+import { electionList } from "../assets/electionList";
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Content.vue')
   },
   {
+    path: '/intention',
+    name: 'Intention',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Intention.vue')
+  },
+  {
     path: '/survey',
     name: 'Survey',
     component: () => import(/* webpackChunkName: "about" */ '../views/Survey.vue')
@@ -51,12 +57,33 @@ const routes = [
     }
   },
   {
+    path: '/electionResultLists',
+    name: 'ElectionResultLists',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ElectionResultsLists.vue')
+  },
+  {
+    path: '/electionResultLists/:year',
+    name: 'ElectionResultListChild',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ElectionResultsChildList.vue'),
+    beforeEnter(to,from,next){
+      to.params.year = electionList.filter(element => {
+        return (element.electionYear == to.params.year)
+      })
+      next();
+    }
+
+  },
+  {
+    path: '/electionResultLists/:year/:content',
+    name: 'ElectionResultListView',
+    component: () => import(/* webpackChunkName: "about" */ '../views/electionResultsView.vue'),
+  },
+  {
     path: '/content/:roomid/:childroomid',
     name: 'ContentView',
     component: () => import(/* webpackChunkName: "about" */ '../views/ContentView.vue'),
     beforeEnter(to, from, next) {
       to.params.content = contentList.filter(element => {
-        console.log(to.params);
         return (element.roomTitle == to.params.childroomid)
       });
       next();
