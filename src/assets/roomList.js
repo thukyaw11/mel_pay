@@ -3,7 +3,7 @@ export const roomList =
     rooms: [
         {
             roomId: '၁',
-            text: "အခန်း (၁) - မဲပေးတယ်ဆိုတာဘာလဲ။",
+            text: "မဲပေးတယ်ဆိုတာဘာလဲ။",
             roomIndex: "/room1/",
             children: [
                 {
@@ -25,10 +25,10 @@ export const roomList =
             text: "ဘယ်လိုမဲပေးမလဲ။",
             roomIndex: "/room2/",
             children: [
-                { text: "သိရှိထားသင့်သည့် အချက်များ", link: 1 },
+                { text: "မဲပေးခြင်း", link: 1 },
                 { text: "ကိုယ်တိုင်မဲပေးခြင်း", link: 2 },
                 { text: "ကြိုတင်မဲပေးခြင်း", link: 3 },
-                { text: "မဲပေးခြင်း", link: 4 }
+                { text: "a", link: 4 }
             ]
         },
         {

@@ -288,22 +288,6 @@ export const partyList = [
     partyContact: '၀၉-၇၃၂၃၈၃၂၄(ဦးထွန်းအောင်ကျော်)၊ ၀၉-၈၆၁၄၃၇၂(ဦးလှသိန်း)၊ ၀၁-၅၀၄၈၈၂၊ ၀၁-၅၀၅၃၀၇'
   },
   {
-    id: 19,
-    nameInEnglish: 'Union Democratic Party',
-    nameInEnglishAbb: 'UDP',
-    nameInBurmese: 'ပြည်ထောင်စုဒီမိုကရေစီပါတီ',
-    preBuildDate: '၈.၄.၂၀၁၀',
-    partypplAmount: '၁၅ ',
-    orderDate: '၄.၅.၂၀၁၀',
-    partyRegDate: '၂၀.၅.၂၀၁၀',
-    partyAllowDate: '၂၈.၅.၂၀၁၀',
-    partyId: '၂၄',
-    partyLeader: 'ဦးတင်အုန်း၊ ဦးသောင်းဝင်း(ထွေ/မှူး)',
-    partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
-    partyLocation: 'အမှတ်(၅၆)၊ ၇- လွှာ (စီ)၊ လမ်း (၃၀)၊ (၆)ရပ်ကွက်၊ ပန်းဘဲတန်းမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။',
-    partyContact: '၀၁-၅၈၄၂၆၁၊၀၉-၇၃၂၀၃၀၈၅၊ ၀၉-၄၄၈၅၃၇၉၁၄ (ဦးသောင်းဝင်း)၊ ၀၉-၄၄၈၅၃၇၉၁၅'
-  },
-  {
     id: 20,
     nameInEnglish: 'Peace for Diversity Party',
     nameInEnglishAbb: 'PDP',
@@ -1485,22 +1469,6 @@ export const partyList = [
     partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
     partyLocation: 'အမှတ်(၂၆၂၆)၊ အင်းဝင် (၄)လမ်း၊ နန်းတော်ရာရပ်ကွက်၊ ပဲခူးမြို့၊ ပဲခူးတိုင်းဒေသကြီး',
     partyContact: '၀၉-၇၉၆၉၅၂၈၉၉'
-  },
-  {
-    id: 96,
-    nameInEnglish: 'THE 88 GENERATION BROTHERHOOD PARTY',
-    nameInEnglishAbb: 'TGBP',
-    nameInBurmese: '၈၈ မျိုးဆက်ညီနောင်ပါတီ',
-    preBuildDate: '၁၃-၈-၂၀၁၉',
-    partypplAmount: '၂၀',
-    orderDate: '၁၂.၁၂.၂၀၁၉',
-    partyRegDate: '၈.၁.၂၀၂၀',
-    partyAllowDate: '၂၄.၃.၂၀၂၀',
-    partyId: '၁၂၇',
-    partyLeader: '',
-    partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
-    partyLocation: 'တိုက်(၁၀)၊ အခန်း(၁၀၁)၊ ရွှေနှင်းဆီလမ်း၊ ရွှေလင်ပန်း တန်ဖိုးနည်းအိမ်ရာ အပိုင်း(၁)၊ လှိုင်သာယာမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး',
-    partyContact: '၀၉-၅၁၂၁၂၄၉၊ ၀၉-၇၆၅၁၂၁၂၄၉'
   },
   {
     id: 97,

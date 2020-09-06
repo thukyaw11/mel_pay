@@ -39,7 +39,7 @@
       </b-col>
       <b-col sm="12" md="6" xs="12" lg="6">
         <div class="data_box">
-          <img src="@/assets/images/whoarewe.png" alt="whoarewe" style="height: 100%;width:100%" />
+          <img src="@/assets/images/whoarewe.jpg" alt="whoarewe" style="height: 300px;width:90%" />
         </div>
       </b-col>
     </b-row>

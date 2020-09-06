@@ -35,7 +35,7 @@
       >
         <router-link :to="{name: 'PartyView', params: { name: party.nameInEnglish}}">
           <div class="party">
-            <span style="width:75%;float:left;">{{party.nameInBurmese}} အမှတ်{{party.id}}</span>
+            <span style="width:75%;float:left;">{{party.nameInBurmese}}</span>
 
             <div class="imageContainer">
               <img :src="getImgUrl(party.id)" class="partyImage" />
