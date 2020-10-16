@@ -85,7 +85,7 @@ export default {
           icon: "fas fa-book-reader",
         },
         {
-          text: "ပါတီစာရင်း",
+          text: "နိုင်ငံရေးပါတီများ",
           link: "Party",
           icon: "fas fa-stream",
         },
@@ -106,8 +106,8 @@ export default {
           link: "http://mobileducenter.org",
         },
         {
-          icon: "fas fa-question-circle",
-          link: "",
+          icon: "fas fa-envelope",
+          link: "mailto:mobilefree.education@gmail.com",
         },
       ],
     };
@@ -177,4 +177,3 @@ export default {
   }
 }
 </style>
-

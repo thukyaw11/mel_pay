@@ -8,7 +8,7 @@
     class="content"
   >
     <div class="header_adv">
-      <h3 class="header_adv_content">ယခင် ရွေးကောက်ပွဲရလဒ်များ</h3>
+      <h3 class="header_adv_content">ရွေးကောက်ပွဲအချက်အလက်များ</h3>
     </div>
     <br />
 

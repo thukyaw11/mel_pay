@@ -22,6 +22,7 @@
 export default {
   computed: {
     contentList() {
+      console.log(this.$route.params)
       return this.$route.params;
     }
   }

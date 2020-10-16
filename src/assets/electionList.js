@@ -334,7 +334,7 @@ export const electionList = [
                         "pdfText": "ပြည်သူ့လွှတ်တော်",
                         "pdfValue": "2"
                     },
-                
+
                     {
                         "pdfText": "အမျိုးသားလွှတ်တော်",
                         "pdfValue": "3"
@@ -343,4 +343,51 @@ export const electionList = [
             }
         ]
     },
+    {
+      "electionYear" :"၂၀၂၀ ခုနှစ် အထွေထွေရွေးကောက်ပွဲ",
+      "childContent" : [
+        {
+            "childContentTitle": "ကိုယ်စားလှယ်လောင်း",
+            "downloadAblePdfs": [
+                {
+                    "pdfText": "တိုင်းရင်းသားရေးရာ ကိုယ်စားလှယ်လောင်း",
+                    "pdfValue": 1
+                },
+                {
+                    "pdfText": "အမျိုးသားလွှတ်တော် ကိုယ်စားလှယ်လောင်း",
+                    "pdfValue": 2
+                },
+                {
+                    "pdfText" : "ပြည်သူ့လွှတ်တော် ကိုယ်စားလှယ်လောင်း",
+                    "pdfValue" : 3
+                },
+                {
+                    "pdfText": "တိုင်းဒေသကြီး/ပြည်နယ် ကိုယ်စားလှယ်လောင်း",
+                    "pdfValue": 4
+                }
+            ]
+        },
+        {
+            "childContentTitle": "မဲဆန္ဒနယ်",
+            "downloadAblePdfs": [
+                {
+                    "pdfText": "တိုင်းဒေသကြီး၊ ပြည်နယ်လွှတ်တော် (တိုင်းရင်းသားလူမျိုး) မဲဆန္ဒနယ် ၂၀၂၀",
+                    "pdfValue": 1
+                },
+                {
+                    "pdfText": "တိုင်းဒေသကြီး၊ ပြည်နယ်လွှတ်တော် မဲဆန္ဒနယ် ၂၀၂၀",
+                    "pdfValue": 2
+                },
+                {
+                    "pdfText" : "ပြည်သူ့လွှတ်တော် မဲဆန္ဒနယ် ၂၀၂၀",
+                    "pdfValue" : 3
+                },
+                {
+                    "pdfText": "အမျိုးသားလွှတ်တော် မဲဆန္ဒနယ် ၂၀၂၀",
+                    "pdfValue": 4
+                }
+            ]
+        },
+      ]
+    }
 ]

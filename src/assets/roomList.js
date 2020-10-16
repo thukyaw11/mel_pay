@@ -87,7 +87,8 @@ export const roomList =
             text: "အထွေထွေ",
             children: [
                 { text: "ရွေးကောက်ပွဲ ပြစ်မှုပြစ်ဒဏ်များ", link: 1 },
-                { text: "reference links", link: 2 },
+                { text: "အစိုးရအဖွဲ့ အချက်အလက်များ", link: 2},
+                { text: "reference links", link: 3 }
             ]
         }
     ]
