@@ -246,7 +246,7 @@ export const electionList = [
                     "pdfValue" : "1"
                 }]
             }, {
-                "childContentTitle": "test",
+                "childContentTitle": "မဲရုံအရေအတွက်နှင့် မဲရုံတည်နေရာ",
                 "downloadAblePdfs" : [
                     {
                         "pdfText" : "မဲရုံအရေအတွက်နှင့် မဲရုံတည်နေရာ",

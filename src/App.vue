@@ -142,9 +142,9 @@ body {
 }
 
 .party,
-.knowledge_box:hover {
+/* .knowledge_box:hover {
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
-}
+} */
 .card_title {
   padding: 10px;
 }

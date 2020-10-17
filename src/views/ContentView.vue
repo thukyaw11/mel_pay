@@ -8,7 +8,7 @@
     </div>
     <div class="knowledge_box">
       <b-row>
-        <b-col sm="12" md="6" xs="12" lg="6">
+        <b-col sm="12" md="4" xs="12" lg="4">
           <div class="contentImageContainer">
             <img
               src="@/assets/images/whoarewe.png"
@@ -18,10 +18,10 @@
             />
           </div>
         </b-col>
-        <b-col sm="12" md="6" xs="12" lg="6">
+        <b-col sm="12" md="8" xs="12" lg="8">
           <b-row style="padding:13px">
-            <facebook-button shareDescription="Where" :url="getShareableUrl()"></facebook-button>
-            <messanger-button shareDescription="Where voters meet" :url="getShareableUrl()"></messanger-button>
+            <facebook-button shareDescription="Where" :url="getShareableUrl()" btnText="share"></facebook-button>
+            <messanger-button shareDescription="Where voters meet" :url="getShareableUrl()" btnText="share"></messanger-button>
             <vs-dialog not-close auto-width not-padding v-model="active">
               <div class="con-image">
                 <img src="@/assets/images/whoarewe.png" style="width:100%;height:100%"/>
@@ -79,5 +79,8 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+.imageInRaw{
+  width: 30px;
 }
 </style>
