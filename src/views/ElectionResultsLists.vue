@@ -34,9 +34,6 @@ export default {
     electionList() {
       return electionList;
     },
-  },
-  created() {
-    console.log(this.electionList);
-  },
+  }
 };
 </script>

@@ -58,7 +58,7 @@ export const roomList =
         },
         {
             roomId: '၇',
-            text: "တရားစီရင်ရေးအာဏာ ဆိုတာဘာလဲ။",
+            text: "တရားစီရင်ရေးအာဏာ",
             roomIndex: "/room7/",
             children: [
                 { text: "နိုင်ငံတော်ဖွဲ့စည်းပုံအခြေခံဥပဒေဆိုင်ရာခုံရုံး", link: 1 },
@@ -69,7 +69,7 @@ export const roomList =
         },
         {
             roomId: '၈',
-            text: "ဥပဒေပြုရေးအာဏာ ဆိုတာဘာလဲ။",
+            text: "ဥပဒေပြုရေးအာဏာ",
             roomIndex: "/room8/",
             children: [
                 { text: "လွှတ်တော်ဆိုသည်မှာ", link: 1 },

@@ -32,7 +32,7 @@
               <td>{{party.preBuildDate}}</td>
             </tr>
             <tr>
-              <td>ပလာရောက်လျှောက်ထားစဉ်ပါတီအင်အား</td>
+              <td>လာရောက်လျှောက်ထားစဉ်ပါတီအင်အား</td>
               <td>{{party.partypplAmount}}</td>
             </tr>
             <tr>

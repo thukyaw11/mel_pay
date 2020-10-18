@@ -42,13 +42,14 @@ export default {
 <style scoped>
 
 .header_adv {
-  background: #3f94dab0;
+  background: #2A78FB;
   border-radius: 10px;
   height: 50px;
   padding: 5px;
 }
 .header_adv_content {
   text-align: center;
+  color: white;
 }
 
 .subcontent_box {
