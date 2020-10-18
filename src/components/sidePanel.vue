@@ -2,11 +2,11 @@
   <div>
     <b-col sm="12" md="12" xs="12" lg="12">
       <div class="welcome_box">
-        <span v-for="(sideBarList,index) in sideBarListing" :key="index" @click="closeSideBar" >
+        <span v-for="(sideBarList,index) in sideBarListing" :key="index">
           <vs-button block :to="sideBarList.link" class="vs-btn" v-show="!sideBarList.mobile">
             <i class="btn_icon" :class="sideBarList.icon"></i>
             <span
-              style="font-size:15px;font-family: 'Myanmar Sans Pro', sans-serif;font-weight: light;"
+              style="font-size:15px;font-family: 'Myanmar Sans Pro', sans-serif;"
             >{{sideBarList.text}}</span>
           </vs-button>
         </span>
@@ -37,7 +37,7 @@
       <vs-button @click="closeSideBar" flat icon style="float:left">
         <i class="fas fa-bars"></i>
       </vs-button>
-      <p style="float:left;padding:10px;font-size: 20px">2020 Vote</p>
+      <p style="float:left;padding:10px;font-weight:bold;">မဲပေးကြစို့</p>
     </div>
       <vs-sidebar v-model="active" :open.sync="activeSidebar" id="side">
         <span v-for="(sideBarList,index) in sideBarListing" :key="index" @click="closeSideBar">
@@ -62,14 +62,6 @@
     </div>
 </template>
 <script>
-
-import VueRouter from "vue-router";
-
-const originalPush = VueRouter.prototype.push
-VueRouter.prototype.push = function push(location) {
-  return originalPush.call(this, location).catch(err => err)
-}
-
 export default {
   data() {
     return {
@@ -80,7 +72,6 @@ export default {
           text: "ပင်မစာမျက်နှာ",
           link: "Home",
           icon: "fas fa-home",
-          
         },
         {
           text: "ရည်ရွယ်ချက်",
@@ -108,7 +99,6 @@ export default {
           icon: "fas fa-handshake",
           mobile: true
         },
-        
       ],
       iconListing: [
         {
