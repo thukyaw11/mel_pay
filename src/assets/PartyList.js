@@ -192,22 +192,6 @@ export const partyList = [
     partyContact: '၀၉-၄၁၀၀၈၂၂၅(ဦ:စောယွန်းပိုင်)၊ ၀၉-၅၁၅၉၉၉၈၊ ၀၉-၂၀၂၁၃၅၈ (ဦးစိုင်းမောင်တင်)၊ ၀၈၁-၂၀၂၀၆၄၊ ၀၉-၇၃၀၄၆၂၀၆(ဦးစိုင်းလှကျော်)'
   },
   {
-    id: 13,
-    nameInEnglish: 'United Democratic Party (UDP)',
-    nameInEnglishAbb: 'UDP',
-    nameInBurmese: 'ညီညွတ်သောဒီမိုကရက်တစ်ပါတီ(UDP)',
-    preBuildDate: '၃.၅.၂၀၁၀',
-    partypplAmount: '၁၇',
-    orderDate: '၆.၅.၂၀၁၀',
-    partyRegDate: '၁၇.၅.၂၀၁၀',
-    partyAllowDate: '၂၆.၅.၂၀၁၀',
-    partyId: '၁၆',
-    partyLeader: 'ဦးကျော်မြင့်၊ ဒေါ်သီတာဇင် ( တွဲဖက်/တွင်းမှူး )',
-    partyArea: 'ပြည်ထောင်စုတစ်ဝန်းလုံး',
-    partyLocation: 'ကွင်းအမှတ်(၁၅၂၂)၊ လင်းနို့ဝင်းကွင်း၊ ဦးပိုင်အမှတ်(၂/၁၊ ယာမြေ)၊ ဇီးကုန်းကျေးရွာအုပ်စု၊ ပုဗ္ဗသီရိမြို့နယ်၊ ဥတ္တရသီရိခရိုင်၊ နေပြည်တော်',
-    partyContact: 'ဝ၉-၂၅၉၅၆၀၃၅၀၊ ဝ၉-၂၅၃၇၅၀၉၂၅၊ ဝ၉-၂၅၀၇၉၉၄၁၂ ဝ၆၇-၅၀၀၂၅၃၊ ဝ၆၇-၅၀၀၂၃၆၊'
-  },
-  {
     id: 14,
     nameInEnglish: 'The 88 Generation Student Youths  (Union of Myanmar)',
     nameInEnglishAbb: '88 GSY',

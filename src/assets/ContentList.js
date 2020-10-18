@@ -2197,15 +2197,2112 @@ export const contentList = [
     },
     {
         id: "22",
-        roomTitle: "အစိုးရအဖွဲ့ အချက်အလက်များ",
-        roomMetaTitle: "အစိုးရအဖွဲ့ အချက်အလက်များ",
+        roomTitle: "ပြည်ထောင်စုအစိုးရအဖွဲ့ အချက်အလက်များ",
+        roomMetaTitle: "ပြည်ထောင်စုအစိုးရအဖွဲ့ အချက်အလက်များ",
         roomContent: `
-        <h2 style="text-align: center;"><strong>here</strong></h2>
+        
+        <table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 18px;">
+<td style="text-align: center; width: 977.817px; height: 18px;" colspan="4"><strong>ပြည်ထောင်စုဝန်ကြီးများနှင့် ဒုတိယဝန်ကြီးများစာရင်း</strong></td>
+</tr>
+<tr style="text-align: center; height: 41.4px;">
+<td style="width: 53px; height: 41.4px;"><strong>စဉ်</strong></td>
+<td style="width: 391px; height: 41.4px;"><strong>ဝန်ကြီးဌာနအမည်</strong></td>
+<td style="width: 191px; height: 41.4px;"><strong>ပြည်ထောင်စုဝန်ကြီး</strong></td>
+<td style="width: 342.817px; height: 41.4px;"><strong>ဒုတိယဝန်ကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁</td>
+<td style="width: 391px; height: 18px;">နိုင်ငံခြားရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါ်အောင်ဆန်းစုကြည်</td>
+<td style="width: 342.817px; height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂</td>
+<td style="width: 391px; height: 18px;">သမ္မတရုံးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါ်အောင်ဆန်းစုကြည်</td>
+<td style="width: 342.817px; height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၃</td>
+<td style="width: 391px; height: 18px;">နိုင်ငံတော်အတိုင်ပင်ခံရုံးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">&nbsp;ဦးကျော်တင့်ဆွေ</td>
+<td style="width: 342.817px; height: 18px;">ဦးခင်မောင်တင် / ဦးမင်းလွင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၄</td>
+<td style="width: 391px; height: 18px;">ပြည်ထောင်စုအစိုးရအဖွဲ့ရုံးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးမင်းသူ</td>
+<td style="width: 342.817px; height: 18px;">ဦးတင်မြင့်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၅</td>
+<td style="width: 391px; height: 18px;">ပြည်ထဲရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒုတိယဗိုလ်ချုပ်ကြီးစိုးထွဋ်</td>
+<td style="width: 342.817px; height: 18px;">ဗိုလ်ချုပ်စိုးတင့်နိုင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၆</td>
+<td style="width: 391px; height: 18px;">ကာကွယ်ရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒုတိယဗိုလ်ချုပ်ကြီးစိန်ဝင်း</td>
+<td style="width: 342.817px; height: 18px;">ဗိုလ်ချုပ်မြင့်နွယ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၇</td>
+<td style="width: 391px; height: 18px;">နယ်စပ်ရေးရာဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒုတိယဗိုလ်ချုပ်ကြီး ရဲအောင်</td>
+<td style="width: 342.817px; height: 18px;">ဗိုလ်ချုပ်သန်းထွဋ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၈</td>
+<td style="width: 391px; height: 18px;">စီမံကိန်း၊ ဘဏ္ဍာရေးနှင့် စက်မှုဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးစိုး၀င်း</td>
+<td style="width: 342.817px; height: 18px;">ဦးမောင်မောင်ဝင်း၊ ဦးဆက်အောင်၊ ဒေါက်တာမင်းရဲပိုင်ဟိန်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၉</td>
+<td style="width: 391px; height: 18px;">ရင်းနှီးမြှုပ်နှံမှုနှင့်နိုင်ငံခြားစီးပွားဆက်သွယ်ရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးသောင်းထွန်း</td>
+<td style="width: 342.817px; height: 18px;">ဦးဗရတ်ဆင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၀</td>
+<td style="width: 391px; height: 18px;">အပြည်ပြည်ဆိုင်ရာပူးပေါင်းဆောင်ရွက်ရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးကျော်တင်</td>
+<td style="width: 342.817px; height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၁</td>
+<td style="width: 391px; height: 18px;">ပြန်ကြားရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာဖေမြင့်</td>
+<td style="width: 342.817px; height: 18px;">ဦးအောင်လှထွန်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၂</td>
+<td style="width: 391px; height: 18px;">သာသနာရေးနှင့်ယဉ်ကျေးမှုဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">သူရဦးအောင်ကို</td>
+<td style="width: 342.817px; height: 18px;">ဦးကြည်မင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၃</td>
+<td style="width: 391px; height: 18px;">စိုက်ပျိုးရေး၊ မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာအောင်သူ</td>
+<td style="width: 342.817px; height: 18px;">ဦးလှကျော်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၄</td>
+<td style="width: 391px; height: 18px;">ပို့ဆောင်ရေးနှင့်ဆက်သွယ်ရေးဝန်ကြီးဌာန၏</td>
+<td style="width: 191px; height: 18px;">ဦးသန့်စင်မောင်</td>
+<td style="width: 342.817px; height: 18px;">ဦးကျော်မျိုး၊ ဦးသာဦး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၅</td>
+<td style="width: 391px; height: 18px;">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးအုန်းဝင်း</td>
+<td style="width: 342.817px; height: 18px;">ဒေါက်တာရဲမြင့်ဆွေ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၆</td>
+<td style="width: 391px; height: 18px;">လျှပ်စစ်နှင့်စွမ်းအင်ဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးဝင်းခိုင်</td>
+<td style="width: 342.817px; height: 18px;">ဉီးခင်မောင်ဝင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၇</td>
+<td style="width: 391px; height: 18px;">အလုပ်သမား၊ လူဝင်မှုကြီးကြပ်ရေးနှင့်ပြည်သူ့အင်အားဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးသိန်းဆွေ</td>
+<td style="width: 342.817px; height: 18px;">ဦးမြင့်ကြိုင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၈</td>
+<td style="width: 391px; height: 18px;">စီးပွားရေးနှင့်ကူးသန်းရောင်းဝယ်ရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာသန်းမြင့်</td>
+<td style="width: 342.817px; height: 18px;">ဦးအောင်ထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၁၉</td>
+<td style="width: 391px; height: 18px;">ပညာရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာမျိုးသိမ်းကြီး</td>
+<td style="width: 342.817px; height: 18px;">ဦးဝင်းမော်ထွန်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂၀</td>
+<td style="width: 391px; height: 18px;">ကျန်းမာရေးနှင့်အားကစားဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာမြင့်ထွေး</td>
+<td style="width: 342.817px; height: 18px;">ဒေါက်တာမြလေးစိန်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂၁</td>
+<td style="width: 391px; height: 18px;">ဆောက်လုပ်ရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးဟန်ဇော်</td>
+<td style="width: 342.817px; height: 18px;">ဒေါက်တာကျော်လင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂၂</td>
+<td style="width: 391px; height: 18px;">လူမှုဝန်ထမ်း၊ ကယ်ဆယ်ရေးနှင့် ပြန်လည်နေရာချထားရေးဝန်ကြီး ဌာန</td>
+<td style="width: 191px; height: 18px;">ဒေါက်တာဝင်းမြတ်အေး</td>
+<td style="width: 342.817px; height: 18px;">ဦးစိုးအောင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂၃</td>
+<td style="width: 391px; height: 18px;">ဟိုတယ်နှင့်ခရီးသွားလာရေးဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">ဦးအုန်းမောင်</td>
+<td style="width: 342.817px; height: 18px;">ဦးတင်လတ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 53px; height: 18px;">၂၄</td>
+<td style="width: 391px; height: 18px;">တိုင်းရင်းသားလူမျိုးများရေးရာဝန်ကြီးဌာန</td>
+<td style="width: 191px; height: 18px;">နိုင်သက်လွင်</td>
+<td style="width: 342.817px; height: 18px;">ဦးလှမော်ဦး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+
+
+
+<table style="width:100%" border="1">
+<tbody>
+<tr>
+<td style="text-align: center; width: 38px;">စဉ်</td>
+<td style="text-align: center; width: 273px;">ရုံး/အဖွဲ့အစည်း</td>
+<td style="text-align: center; width: 337.1px;">အမည်</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၁</td>
+<td style="width: 273px;">ပြည်ထောင်စုတရားလွှတ်တော်ချုပ်ရုံး</td>
+<td style="width: 337.1px;">ပြည်ထောင်စုတရားသူကြီးချုပ် ဦးထွန်းထွန်းဦး</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၂</td>
+<td style="width: 273px;">နိုင်ငံတော်ဖွဲ့စည်းပုံအခြေခံဥပဒေဆိုင်ရာခုံရုံး</td>
+<td style="width: 337.1px;">ဥက္ကဋ္ဌ ဦးမျိုးညွန့်</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၃</td>
+<td style="width: 273px;">ပြည်ထောင်စုရွေးကောက်ပွဲကော်မရှင်ရုံး</td>
+<td style="width: 337.1px;">ဥက္ကဋ္ဌ ဦးလှသိန်း</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၄</td>
+<td style="width: 273px;">ပြည်ထောင်စုရှေ့နေချုပ်ရုံး</td>
+<td style="width: 337.1px;">ပြည်ထောင်စုရှေ့နေချုပ် ဦးထွန်းထွန်းဦး</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၅</td>
+<td style="width: 273px;">ပြည်ထောင်စုစာရင်းစစ်ချုပ်ရုံး</td>
+<td style="width: 337.1px;">ပြည်ထောင်စုစာရင်းစစ်ချုပ် ဦးမော်သန်း</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 38px;">၆</td>
+<td style="width: 273px;">ပြည်ထောင်စုရာထူးဝန်အဖွဲ့</td>
+<td style="width: 337.1px;">ဥက္ကဋ္ဌ ဦးဝင်းသိမ်း</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+       <table border="1" style="width: 100%;">
+<tbody>
+<tr style="height: 56px;">
+<td style="height: 56px; text-align: center; width: 508px;" colspan="2">
+<h3><strong>ပြည်ထောင်စုဝန်ကြီးဌာန website များ</strong></h3>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; text-align: center; width: 43.9px;">၁</td>
+<td style="height: 18px; text-align: center; width: 464.1px;">
+<p><strong>နိုင်ငံခြားရေးဝန်ကြီးဌာန</strong></p>
+<p><a href="http://www.mofa.gov.mm/">www.mofa.gov.mm</a></p>
+<p><a href="https://evisa.moip.gov.mm/">https://evisa.moip.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; text-align: center; width: 43.9px;">၂</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>သမ္မတရုံးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.president-office.gov.mm/">www.president-office.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; text-align: center; width: 43.9px;">၃</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>နိုင်ငံတော်အတိုင်ပင်ခံရုံးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.statecounsellor.gov.mm/">www.statecounsellor.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၄</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ပြည်ထောင်စုအစိုးရအဖွဲ့ရုံးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><strong>အထွေထွေအုပ်ချုပ်ရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.gad.gov.mm/">http://www.gad.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၅</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ပြည်ထဲရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.myanmarmoha.org/">http://www.myanmarmoha.org</a></p>
+<p style="text-align: center;"><strong>မြန်မာနိုင်ငံရဲတပ်ဖွဲ့</strong></p>
+<p style="text-align: center;"><a href="http://www.myanmarpoliceforce.org/">www.myanmarpoliceforce.org</a></p>
+<p style="text-align: center;"><strong>မီးသတ်ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.fsd.gov.mm/">www.fsd.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၆</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ကာကွယ်ရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.mod.gov.mm/">http://www.mod.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၇</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>နယ်စပ်ရေးရာဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.moba.gov.mm/?fbclid=IwAR1s6C47EnfW0ESvrnvDTJLgpvJX3HkRLX1kPpthNlLhQxA5_y9hEF3hKsc">www.moba.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၈</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>စီမံကိန်း၊ ဘဏ္ဍာရေးနှင့် စက်မှုဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.cbm.gov.mm/">www.cbm.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.irdmyanmar.gov.mm/">www.irdmyanmar.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.mminsurance.gov.mm/">www.mminsurance.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.myanmarcustoms.gov.mm/">www.myanmarcustoms.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.mmftb.gov.mm/">www.mmftb.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.ird.gov.mm/">www.ird.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.customs.gov.mm/">www.customs.gov.mm</a></p>
+<p style="text-align: center;"><strong>(စက်မှု)</strong></p>
+<p style="text-align: center;"><a href="http://www.moin.gov.mm/">www.moin.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.msmewebportal.gov.mm&nbsp;">www.msmewebportal.gov.mm&nbsp;</a></p>
+<p style="text-align: center;"><strong>စက်မှုကြီးကြပ်ရေးနှင့် စစ်ဆေးရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.disi.gov.mm/">www.disi.gov.mm</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၁) စက်မှုသင်တန်းကျောင်း (ဆင်တဲ)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcsinde.com/">www.itcsinde.com</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၂) စက်မှုသင်တန်းကျောင်း (မန္တလေး)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcmandalay.com/">www.itcmandalay.com</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၃) စက်မှုသင်တန်းကျောင်း (သာဂရ)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcthagaya.com/">www.itcthagaya.com</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၄) စက်မှုသင်တန်းကျောင်း (ပခုက္ကူ)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcpakokku.com/">www.itcpakokku.com</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၅) စက်မှုသင်တန်းကျောင်း (မကွေး)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcmagway.com/">www.itcmagway.com</a></p>
+<p style="text-align: center;"><strong>အမှတ် (၆) စက်မှုသင်တန်းကျောင်း (မြင်းခြံ)</strong></p>
+<p style="text-align: center;"><a href="http://www.itcmyingyan.com/">www.itcmyingyan.com</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၉</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ရင်းနှီးမြှုပ်နှံမှုနှင့်နိုင်ငံခြားစီးပွားဆက်သွယ်ရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="https://www.myco.dica.gov.mm/">www.myco.dica.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 49.8px;">
+<td style="height: 49.8px; width: 43.9px; text-align: center;">၁၀</td>
+<td style="height: 49.8px; width: 464.1px; text-align: center;"><strong>အပြည်ပြည်ဆိုင်ရာပူးပေါင်းဆောင်ရွက်ရေး ဝန်ကြီးဌာန</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px; text-align: center;">၁၁</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ပြန်ကြားရေး ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="https://www.moi.gov.mm/">http://www.moi.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.mrtv.gov.mm/">http://www.mrtv.gov.mm/</a></p>
+<p style="text-align: center;"><a href="https://www.moi.gov.mm/iprd/">http://www.moi.gov.mm/iprd/</a></p>
+<p style="text-align: center;"><a href="https://www.moi.gov.mm/ppd/">http://moi.gov.mm/ppd/</a></p>
+<p style="text-align: center;"><a href="https://www.moi.gov.mm/npe/">http://moi.gov.mm/npe/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 43.9px;">၁၂</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>သာသနာရေးနှင့် ယဉ်ကျေးမှု ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.mora.gov.mm/">www.mora.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.moculture.gov.mm/">www.moculture.gov.mm</a></p>
+<p style="text-align: center;"><strong>သာသနာရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dra.gov.mm/">www.dra.gov.mm</a></p>
+<p style="text-align: center;"><strong>သာသနာတော်ထွန်းကားပြန့်ပွားရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dpps.gov.mm/">www.dpps.gov.mm</a></p>
+<p style="text-align: center;"><strong>အပြည်ပြည်ဆိုင်ရာထေရဝါဒဗုဒ္ဓသာသနာပြုတက္ကသိုလ်</strong></p>
+<p style="text-align: center;"><a href="http://www.itbmu.org.mm/">www.itbmu.org.mm</a></p>
+<p style="text-align: center;"><strong>နိုင်ငံတော်သံဃမဟာနာယကအဖွဲ့</strong></p>
+<p style="text-align: center;"><a href="http://www.mahana.org.mm/">www.mahana.org.mm</a></p>
+<p style="text-align: center;"><a href="http://www.culture.gov.mm/">www.culture.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.fineartsdepartment.gov.mm/">www.fineartsdepartment.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.kbrl.gov.mm/">www.kbrl.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 306px; width: 43.9px; text-align: center;">၁၃</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>စိုက်ပျိုးရေး မွေးမြူရေးနှင့် ဆည်မြောင်းဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="https://www.moali.gov.mm/">https://www.moali.gov.mm/</a></p>
+<p style="text-align: center;"><strong>စိုက်ပျိုးရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.doa.gov.mm/">www.doa.gov.mm</a></p>
+<p style="text-align: center;"><strong>မွေးမြူရေးနှင့် ကုသရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.lbvd.gov.mm/">www.lbvd.gov.mm</a></p>
+<p style="text-align: center;"><strong>ငါးလုပ်ငန်းဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dof.gov.mm/">http://www.dof.gov.mm/</a></p>
+<p style="text-align: center;"><strong>ကျေးလက်ဒေသဖွံ့ဖြိုးတိုးတက်ရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.drdmyanmar.org/">http://www.drdmyanmar.org/</a></p>
+<p style="text-align: center;"><strong>ရေဆင်းစိုက်ပျိုးရေးတက္ကသိုလ်</strong></p>
+<p style="text-align: center;"><a href="http://www.yau.edu.mm/">www.yau.edu.mm</a></p>
+<p style="text-align: center;"><strong>မွေးမြူရေးဆိုင်ရာဆေးတ္ကသိုလ်</strong></p>
+<p style="text-align: center;"><a href="http://www.uvsyezin.edu.mm/">www.uvsyezin.edu.mm</a></p>
+<p style="text-align: center;"><strong>သမဝါယမတက္ကသိုလ် (သန်လျင်)</strong></p>
+<p style="text-align: center;"><a href="http://www.tcu.edu.mm/">www.tcu.edu.mm</a></p>
+<p style="text-align: center;"><a href="http://cdd.drdmyanmar.org/mm">http://cdd.drdmyanmar.org/mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 756px; width: 43.9px; text-align: center;">၁၄</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ပို့ဆောင်ရေးနှင့် ဆက်သွယ်ရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://motc.gov.mm/">http://motc.gov.mm/</a></p>
+<p style="text-align: center;"><strong>လေကြောင်းပို့ဆောင်ရေးညွှန်ကြားမှုဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dca.gov.mm/">www.dca.gov.mm</a></p>
+<p style="text-align: center;"><strong>ရေကြောင်းပို့ဆောင်ရေးညွှန်ကြားမှုဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dma.gov.mm/">www.dma.gov.mm</a></p>
+<p style="text-align: center;"><strong>ရေအရင်းမြစ်နှင့်မြစ်ချောင်းများ ဖွံ့ဖြိုးတိုးတက်ရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dwir.gov.mm/">www.dwir.gov.mm</a></p>
+<p style="text-align: center;"><strong>မိုးလေဝသနှင့်ဇလဗေဒညွှန်ကြားမှုဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="https://www.moezala.gov.mm/">https://www.moezala.gov.mm/&nbsp;</a></p>
+<p style="text-align: center;">(or)</p>
+<p style="text-align: center;"><a href="http://www.dmh.gov.mm/">www.dmh.gov.mm</a></p>
+<p style="text-align: center;"><strong>ကုန်းလမ်းပို့ဆောင်ရေး ညွှန်ကြားမှု ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://rtad.gov.mm/">http://rtad.gov.mm/</a></p>
+<p style="text-align: center;"><strong>ဆက်သွယ်ရေးညွှန်ကြားမှုဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.ptd.gov.mm/">www.ptd.gov.mm</a></p>
+<p style="text-align: center;"><strong>သတင်းအချက်အလက် နည်းပညာနှင့် ဆိုက်ဘာလုံခြုံရေး ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.motc.gov.mm/">www.motc.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာအမျိုးသားလေကြောင်း</strong></p>
+<p style="text-align: center;"><a href="http://www.flymna.com/">www.flymna.com</a></p>
+<p style="text-align: center;"><strong>ပြည်တွင်းရေကြောင်းပို့ဆောင်ရေး</strong></p>
+<p style="text-align: center;"><a href="http://www.iwt.gov.mm/">www.iwt.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာ့ဆိပ်ကမ်းအာဏာပိုင်</strong></p>
+<p style="text-align: center;"><a href="http://www.mpa.gov.mm/">www.mpa.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာ့သင်္ဘောကျင်းလုပ်ငန်း</strong></p>
+<p style="text-align: center;"><a href="http://www.motc.gov.mm/">www.motc.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာ့မီးရထား</strong></p>
+<p style="text-align: center;"><a href="http://www.myanmarailways1877.com/">www.myanmarailways1877.com</a></p>
+<p style="text-align: center;"><strong>ကုန်းလမ်းပို့ဆောင်ရေး</strong></p>
+<p style="text-align: center;"><a href="http://www.motc.gov.mm/">www.motc.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာ့ဆက်သွယ်ရေးလုပ်ငန်း</strong></p>
+<p style="text-align: center;"><a href="http://www.mpt.com.mm/">www.mpt.com.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာ့စာတိုက်လုပ်ငန်း</strong></p>
+<p style="text-align: center;"><a href="http://www.myanmarepost.com/">www.myanmarepost.com</a></p>
+<p style="text-align: center;"><strong>မြန်မာနိုင်ငံရေကြောင်းပညာရေးတက္ကသိုလ်</strong></p>
+<p style="text-align: center;"><a href="http://www.motc.gov.mm/">www.motc.gov.mm</a></p>
+<p style="text-align: center;"><strong>မြန်မာနိုင်ငံကုန်သွယ်ရေကြောင်းကောလိပ်</strong></p>
+<p style="text-align: center;"><a href="http://www.mmmc.edu.mm/">www.mmmc.edu.mm</a></p>
+<p style="text-align: center;"><strong>ဗဟိုပို့ဆောင်ဆက်သွယ်ရေးကျောင်း</strong></p>
+<p style="text-align: center;"><a href="http://www.motc.gov.mm/">www.motc.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.myanmaposts.net.mm/">http://www.myanmaposts.net.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.myanmarrtad.com/">http://www.myanmarrtad.com/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 252px; width: 43.9px; text-align: center;">၁၅</td>
+<td style="height: 18px; width: 464.1px; text-align: center;">
+<p><strong>သယံဇာတနှင့် သဘာဝ ပတ်ဝန်းကျင် ထိန်းသိမ်းရေး ဝန်ကြီး ဌာန</strong></p>
+<p><a href="http://www.monrec.gov.mm/">http://www.monrec.gov.mm/</a></p>
+<p><strong>သစ်တောဦးစီးဌာန</strong></p>
+<p><a href="http://www.forestdepartment.gov.mm/">www.forestdepartment.gov.mm</a></p>
+<p><strong>မြန်မာ့သစ်လုပ်ငန်း</strong></p>
+<p><a href="http://www.mte.com.mm/">www.mte.com.mm</a></p>
+<p><strong>အပူပိုင်းဒေသစိမ်းလန်းစိုပြည်ရေးဦးစီးဌာန</strong></p>
+<p><a href="http://www.dryzonegreening.gov.mm/">www.dryzonegreening.gov.mm</a></p>
+<p><strong>ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဦးစီးဌာန</strong></p>
+<p><a href="http://www.ecd.gov.mm/">http://www.ecd.gov.mm/</a></p>
+<p><strong>မြေတိုင်းဦးစီးဌာန</strong></p>
+<p><a href="http://www.surveydepartment.gov.mm/">http://www.surveydepartment.gov.mm/</a></p>
+<p><strong>သတ္တုတွင်းဦးစီးဌာန</strong></p>
+<p><a href="http://www.mining.gov.mm/">www.mining.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; width: 43.9px; text-align: center;">၁၆</td>
+<td style="height: 18px; width: 464.1px; text-align: center;">
+<p><strong>လျှပ်စစ်နှင့် စွမ်းအင် ဝန်ကြီးဌာန</strong></p>
+<p><a href="http://www.moee.gov.mm/">http://www.moee.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 144px; width: 43.9px; text-align: center;">၁၇</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>အလုပ်သမား၊ လူဝင်မှု ကြီးကြပ်ရေးနှင့် ပြည်သူ့အင်အား ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.mol.gov.mm/mm/">www.mol.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.mip.gov.mm/">http://www.mip.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.labourportal.gov.mm/">www.labourportal.gov.mm </a></p>
+<p style="text-align: center;"><strong>ပြည်သူ့အင်အားဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dop.gov.mm/">http://www.dop.gov.mm/</a></p>
+<p style="text-align: center;"><a href="https://evisa.moip.gov.mm/">https://evisa.moip.gov.mm</a></p>
+<p style="text-align: center;"><a href="https://myanmarevisa.gov.mm/">https://myanmarevisa.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 54px; width: 43.9px; text-align: center;">&nbsp;၁၈</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>စီးပွားရေးနှင့် ကူးသန်းရောင်းဝယ်ရေး ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.commerce.gov.mm/">www.commerce.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.myanmartradenet.com.mm/">www.myanmartradenet.com.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 54px; width: 43.9px; text-align: center;">&nbsp;၁၉</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ပညာရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.moe.gov.mm/">http://www.moe.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://myanmarexam.org/">www.myanmarexam.org/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 252px; width: 43.9px; text-align: center;">&nbsp;၂၀</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ကျန်းမာရေးနှင့် အားကစား ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.mohs.gov.mm/">www.mohs.gov.mm</a></p>
+<p style="text-align: center;"><strong>အစားအသောက်နှင့် ဆေးဝါးကွပ်ကဲရေး ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.fdamyanmar.gov.mm/">www.fdamyanmar.gov.mm</a></p>
+<p style="text-align: center;"><strong>တိုင်းရင်းဆေးပညာ ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dtm.gov.mm/">www.dtm.gov.mm</a></p>
+<p style="text-align: center;"><strong>ကျန်းမာရေးလူ့စွမ်းအားအရင်းအမြစ် ဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.hrh.gov.mm/">www.hrh.gov.mm</a></p>
+<p style="text-align: center;"><strong>ကုသရေးဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.doms.gov.mm/">www.doms.gov.mm</a></p>
+<p style="text-align: center;"><strong>အားကစားနှင့် ကာယပညာဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.spedmyanmar.gov.mm/">www.spedmyanmar.gov.mm</a></p>
+<p style="text-align: center;"><strong>ဆေးသုတေသနဦးစီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.dmr.gov.mm/">www.dmr.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; width: 43.9px; text-align: center;">&nbsp;၂၁</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ဆောက်လုပ်ရေး ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.construction.gov.mm/">www.construction.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 90px; width: 43.9px; text-align: center;">&nbsp;၂၂</td>
+<td style="height: 18px; width: 464.1px; text-align: center;">
+<p><strong>လူမှုဝန်ထမ်းကယ်ဆယ်ရေးနှင့် ပြန်လည်နေရာချထားရေး ဝန်ကြီးဌာန</strong></p>
+<p><a href="http://www.ddm.gov.mm/">www.ddm.gov.mm&nbsp;</a></p>
+<p><a href="http://www.mswrr.gov.mm/">www.mswrr.gov.mm</a></p>
+<p><a href="http://www.dsw.gov.mm/">http://www.dsw.gov.mm</a></p>
+<p><a href="http://www.rrdmyanmar.gov.mm/">www.rrdmyanmar.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 72px; width: 43.9px; text-align: center;">&nbsp;၂၃</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>ဟိုတယ်နှင့် ခရီးသွားလာရေးဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.myanmartourism.org/">www.myanmartourism.org</a></p>
+<p style="text-align: center;"><a href="http://www.tourism.gov.mm/">www.tourism.gov.mm</a></p>
+<p style="text-align: center;"><a href="http://www.tourisminmyanmar.com.mm/?fbclid=IwAR02i4eC0GvCio6D9xCcSWvqm3s1cFAQsJIoFEnGAJv2wT7Q5zLmdZ5bogo">www.tourisminmyanmar.com.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; width: 43.9px; text-align: center;">&nbsp;၂၄</td>
+<td style="height: 18px; width: 464.1px;">
+<p style="text-align: center;"><strong>တိုင်းရင်းသားလူမျိုးများရေးရာ ဝန်ကြီးဌာန</strong></p>
+<p style="text-align: center;"><a href="http://www.moea.gov.mm/">www.moea.gov.mm</a></p>
+</td>
+</tr>
+
+
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<table style="width:100%" border="1">
+<tbody>
+<tr style="height: 54px;">
+<td style="text-align: center; height: 54px;" colspan="2">
+<h4><strong>ပြည်ထောင်စု ရုံး/အဖွဲ့အစည်းများ</strong></h4>
+</td>
+</tr>
+<tr style="height: 78px;">
+<td style="text-align: center; height: 78px;" width="68">၁</td>
+<td style="height: 78px;" width="460">
+<p style="text-align: center;"><strong>ပြည်ထောင်စုလွှတ်တော်</strong></p>
+<p style="text-align: center;"><a href="https://pyidaungsu.hluttaw.mm/">https://pyidaungsu.hluttaw.mm</a></p>
+</td>
+</tr>
+<tr style="height: 97.0667px;">
+<td style="text-align: center; height: 97.0667px;" width="68">၂</td>
+<td style="height: 97.0667px;" width="460">
+<p style="text-align: center;"><strong>ပြည်သူ့လွှတ်တော်</strong></p>
+<p style="text-align: center;"><a href="http://www.pyithuhluttaw.gov.mm/">www.pyithuhluttaw.gov.mm/</a></p>
+<p style="text-align: center;"><a href="http://www.pyithu.hluttaw.mm/">www.pyithu.hluttaw.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 78px;">
+<td style="text-align: center; height: 78px;" width="68">၃</td>
+<td style="text-align: center; height: 78px;" width="460">
+<p><strong>အမျိုးသားလွှတ်တော်</strong></p>
+<p><a href="http://www.amyotha.hluttaw.mm/?lang=my">www.amyotha.hluttaw.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၄</td>
+<td style="height: 18px; text-align: center;" width="460">
+<p><strong>ပြည်ထောင်စုတရားလွှတ်တော်ချုပ်ရုံး</strong></p>
+<p><a href="http://www.unionsupremecourt.gov.mm/">http://www.unionsupremecourt.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၅</td>
+<td style="height: 18px; text-align: center;" width="460">
+<p><strong>တပ်မတော်ကာကွယ်ရေးဦးစီးချုပ်ရုံး</strong></p>
+<p><a href="http://www.cincds.gov.mm/">http://www.cincds.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၆</td>
+<td style="height: 18px;" width="460">
+<p style="text-align: center"><a href="http://www.myanmarconstitutionaltribunal.org.mm/">နိုင်ငံတော်ဖွဲ့စည်းပုံအခြေခံဥပဒေဆိုင်ရာခုံရုံး</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၇</td>
+<td style="height: 18px; text-align: center;" width="460">
+<p><strong>ပြည်ထောင်စုရွေးကောက်ပွဲကော်မရှင်</strong></p>
+<p><a href="https://uec.gov.mm/">https://uec.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 54px; text-align: center;" width="68">၈</td>
+<td style="height: 18px; text-align: center;" width="460">
+<p><strong>ပြည်ထောင်စုရှေ့နေချုပ်ရုံး</strong></p>
+<p><a href="http://www.oag.gov.mm/">http://www.oag.gov.mm/</a></p>
+<p><a href="http://www.mlis.gov.mm/">http://www.mlis.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 54px; text-align: center;" width="68">၉</td>
+<td style="height: 18px;" width="460">
+<p style="text-align: center;"><strong>ပြည်ထောင်စုစာရင်းစစ်ချုပ်ရုံး</strong></p>
+<p style="text-align: center;"><a href="http://www.oagmac.gov.mm/">http://www.oagmac.gov.mm</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၁၀</td>
+<td style="height: 18px;" width="460">
+<p style="text-align: center;"><strong>ပြည်ထောင်စုရာထူးဝန်အဖွဲ့ရုံး</strong></p>
+<p style="text-align: center;"><a href="http://www.ucsb.gov.mm/">http://www.ucsb.gov.mm/</a></p>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 36px; text-align: center;" width="68">၁၁</td>
+<td style="height: 18px;" width="460">
+<p style="text-align: center;"><strong>အဂတိလိုက်စားမှုတိုက်ဖျက်ရေးကော်မရှင်</strong></p>
+<p style="text-align: center;"><a href="http://www.accm.gov.mm/acc/">http://www.accm.gov.mm/acc/</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+
+<table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 45.2px;">
+<td style="text-align: center; height: 45.2px;" colspan="3" width="828"><strong>ဝန်ကြီးဌာနများ၏ facebook များ</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">စဉ်</td>
+<td style="height: 18px;">ဝန်ကြီးဌာန</td>
+<td style="height: 18px;">Facebook</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁</td>
+<td style="height: 18px;" width="420">နိုင်ငံခြားရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/mofamyanmar/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၂</td>
+<td style="height: 18px;" width="420">သမ္မတရုံးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/myanmarpresidentoffice.gov.mm/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၃</td>
+<td style="height: 18px;" width="420">နိုင်ငံတော်အတိုင်ပင်ခံရုံးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/state.counsellor/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၄</td>
+<td style="height: 18px;" width="420">ပြည်ထောင်စုအစိုးရအဖွဲ့ရုံးဝန်ကြီးဌာန</td>
+<td style="height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 36px;" rowspan="2" width="29">၅</td>
+<td style="height: 36px;" rowspan="2" width="420">ပြည်ထဲရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/fsd.gov.mm/">မြန်မာနိုင်ငံမီးသတ်တပ်ဖွဲ့ Facebook&nbsp;</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/yezarnimedia/?fref=ts">မြန်မာနိုင်ငံရဲတပ်ဖွဲ့ Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၆</td>
+<td style="height: 18px;" width="420">ကာကွယ်ရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၇</td>
+<td style="height: 18px;" width="420">နယ်စပ်ရေးရာဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/www.mba.gov.mm/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၈</td>
+<td style="height: 18px;" width="420">စီမံကိန်း၊ ဘဏ္ဍာရေးနှင့် စက်မှုဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/Ministry-of-Industry-%E1%80%85%E1%80%80%E1%80%B9%E1%80%99%E1%82%88%E1%80%9D%E1%80%94%E1%80%B9%E1%82%80%E1%80%80%E1%80%AE%E1%80%B8%E1%80%8C%E1%80%AC%E1%80%94-1661911417374748/">&nbsp;ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၉</td>
+<td style="height: 18px;" width="420">ရင်းနှီးမြှုပ်နှံမှုနှင့်နိုင်ငံခြားစီးပွားဆက်သွယ်ရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁၀</td>
+<td style="height: 18px;" width="420">အပြည်ပြည်ဆိုင်ရာပူးပေါင်းဆောင်ရွက်ရေး ဝန်ကြီးဌာန</td>
+<td style="height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 72px;" rowspan="4" width="29">၁၁</td>
+<td style="height: 72px;" rowspan="4" width="420">ပြန်ကြားရေး ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MOIWebportalMyanmar/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/mrtvwebmediaportal/">MRTV Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MYANMAALINNNEWS/">မြန်မာ့အလင်း Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/TheMirrorDaily/">ကြေးမုံ Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁၂</td>
+<td style="height: 18px;" width="420">သာသနာရေးနှင့် ယဉ်ကျေးမှု ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/culturegov/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 36px;" rowspan="2" width="29">၁၃</td>
+<td style="height: 36px;" rowspan="2" width="420">စိုက်ပျိုးရေး မွေးမြူရေးနှင့် ဆည်မြောင်း ဝန်ကြီး ဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/ncddpmyanmar/">လူထုဗဟိုပြုစီမံကိန်း facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/moalinpt/">စိုက်ပျိုးရေး၊ မွေးမြူရေးနှင့် ဆည်မြောင်းဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 108px;" rowspan="6" width="29">၁၄</td>
+<td style="height: 108px;" rowspan="6" width="420">ပို့ဆောင်ရေးနှင့် ဆက်သွယ်ရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/motcMM/">ဝန်ကြီးဌာန facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/iwtygn">ပြည်တွင်းရေကြောင်းပို့ဆောင်ရေး</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MyanmarPostService/">မြန်မာ့စာတိုက်လုပ်ငန်း</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/officalmmu">မြန်မာနိုင်ငံရေကြောင်းပညာရေးတက္ကသိုလ်</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MyanmarNationalAirlines/">မြန်မာအမျိုးသားလေကြောင်း</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/dmhmoezalanaypyitaw/?fref=ts">မိုးလေဝသနှင့်ဇလဗေဒညွှန်ကြားမှုဦးစီးဌာန</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁၅</td>
+<td style="height: 18px;" width="420">သယံဇာတနှင့် သဘာဝ ပတ်ဝန်းကျင် ထိန်းသိမ်း ရေး ဝန်ကြီး ဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/ministryofmines.myanmar">ဝန်ကြီးဌာန Facebook&nbsp;</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁၆</td>
+<td style="height: 18px;" width="420">လျှပ်စစ်နှင့် စွမ်းအင် ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MOEEMyanmar/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">၁၇</td>
+<td style="height: 18px;" width="420">အလုပ်သမား၊ လူဝင်မှု ကြီးကြပ်ရေးနှင့် ပြည်သူ့ အင်အား ဝန်ကြီး ဌာန</td>
+<td style="height: 18px;">မရှိ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၁၈</td>
+<td style="height: 18px;" width="420">စီးပွားရေးနှင့် ကူးသန်းရောင်းဝယ်ရေး ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/mocommerce/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 36px;" rowspan="2" width="29">&nbsp;၁၉</td>
+<td style="height: 36px;" rowspan="2" width="420">ပညာရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/moe.gov.mm/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/exams.mm/">မြန်မာနိုင်ငံစာစစ်ဦးစီးဌာန</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၂၀</td>
+<td style="height: 18px;" width="420">ကျန်းမာရေးနှင့် အားကစား ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MinistryOfHealthAndSportsMyanmar/?fref=ts&amp;__mref=message_bubble">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၂၁</td>
+<td style="height: 18px;" width="420">ဆောက်လုပ်ရေး ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/MinistryofConstruction/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၂၂</td>
+<td style="height: 18px;" width="420">လူမှုဝန်ထမ်းကယ်ဆယ်ရေးနှင့် ပြန်လည်နေရာချ ထားရေး ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/Relief-and-Resettlement-Department-Myanmar-660230287445329/?fref=ts">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၂၃</td>
+<td style="height: 18px;" width="420">ဟိုတယ်နှင့် ခရီးသွားလာရေးဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/moht.mm/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="29">&nbsp;၂၄</td>
+<td style="height: 18px;" width="420">တိုင်းရင်းသားလူမျိုးများရေးရာ ဝန်ကြီးဌာန</td>
+<td style="height: 18px;" width="379"><a href="https://www.facebook.com/Ministry-of-Ethnic-Affairs-Myanmar-822764397855686/">ဝန်ကြီးဌာန Facebook</a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<a href="https://drive.google.com/u/0/uc?id=1cR6FcRmhrB02GdcCQY9-CEmHJ1zaBuDK&export=download" target="blank">ပြောရေးဆိုခွင့်ရှိသူများနှင့်အဖွဲ့ ဆက်သွယ်ရမည့် ဖုန်းနံပါတ်များ</a>
+
+`
+
+},
+{
+    id: "23",
+    roomTitle: "တိုင်းဒေသကြီး/ပြည်နယ်အစိုးရအဖွဲ့ အချက်အလက်များ",
+    roomMetaTitle: "တိုင်းဒေသကြီး/ပြည်နယ်အစိုးရအဖွဲ့ အချက်အလက်များ",
+    roomContent: `
+    <table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 36.2px;">
+<td style="text-align: center; width: 644.3px; height: 36.2px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ကချင်ပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">စဉ်</td>
+<td style="width: 225px; height: 18px;">အမည်</td>
+<td style="width: 358.3px; height: 18px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁။</td>
+<td style="width: 225px; height: 18px;">ဒေါက်တာခက်အောင်</td>
+<td style="width: 358.3px; height: 18px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၂။</td>
+<td style="width: 225px; height: 18px;">ဦးထွန်းတင်</td>
+<td style="width: 358.3px; height: 18px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၃။</td>
+<td style="width: 225px; height: 18px;">ဦးခင်မောင်မြင့်(ခ)ဦးဒိတ်</td>
+<td style="width: 358.3px; height: 18px;">ဗမာတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၄။</td>
+<td style="width: 225px; height: 18px;">ဦးစိုင်းစိန်လင်း</td>
+<td style="width: 358.3px; height: 18px;">ရှမ်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၅။</td>
+<td style="width: 225px; height: 18px;">ဦးအားတီယောဟန်</td>
+<td style="width: 358.3px; height: 18px;">လီဆူတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၆။</td>
+<td style="width: 225px; height: 18px;">ဦးရန်နမ်းဖုန်</td>
+<td style="width: 358.3px; height: 18px;">ရဝမ်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၇။</td>
+<td style="width: 225px; height: 18px;">ဗိုလ်မှူးကြီးနေလင်းထွန်း</td>
+<td style="width: 358.3px; height: 18px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၈။</td>
+<td style="width: 225px; height: 18px;">ဦးဝေလင်း</td>
+<td style="width: 358.3px; height: 18px;">ဘဏ္ဍာ၊အခွန်၊စီမံကိန်းနှင့်စီးပွားရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၉။</td>
+<td style="width: 225px; height: 18px;">ဦးဝင်းညွန့်</td>
+<td style="width: 358.3px; height: 18px;">လမ်းပန်းဆက်သွယ်ရေး၊ လျှပ်စစ်နှင့် စက်မှုလက်မှုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၀။</td>
+<td style="width: 225px; height: 18px;">ဦးကျော်ကျော်ဝင်း</td>
+<td style="width: 358.3px; height: 18px;">စိုက်ပျိုးမွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၁။</td>
+<td style="width: 225px; height: 18px;">ဦးလဆိုင်း</td>
+<td style="width: 358.3px; height: 18px;">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၂။</td>
+<td style="width: 225px; height: 18px;">ဦးနော်လီ (ခ)&nbsp; ဇခေါင်ခမ်းရယ်</td>
+<td style="width: 358.3px; height: 18px;">စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၃။</td>
+<td style="width: 225px; height: 18px;">ဦးနေဝင်း</td>
+<td style="width: 358.3px; height: 18px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၄။</td>
+<td style="width: 225px; height: 18px;">ဦးဇော်ဝင်း</td>
+<td style="width: 358.3px; height: 18px;">လူဝင်မှုကြီးကြပ်ရေးနှင့် လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၅။</td>
+<td style="width: 225px; height: 18px;">ဦးဒီဆင်ရမ်</td>
+<td style="width: 358.3px; height: 18px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၆။</td>
+<td style="width: 225px; height: 18px;">ဦးတင်လှိုင်</td>
+<td style="width: 358.3px; height: 18px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 61px; height: 18px;">၁၇။</td>
+<td style="width: 225px; height: 18px;">ဦးတူးမော်</td>
+<td style="width: 358.3px; height: 18px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 37.2px;">
+<td style="text-align: center; width: 621.85px; height: 37.2px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ကယားပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">စဉ်</td>
+<td style="width: 207px; height: 18px;">အမည်</td>
+<td style="width: 354.85px; height: 18px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၁။</td>
+<td style="width: 207px; height: 18px;">ဦးအယ်လ်ဖောင်းရှို</td>
+<td style="width: 354.85px; height: 18px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၂။</td>
+<td style="width: 207px; height: 18px;">ဦးလှထွေး</td>
+<td style="width: 354.85px; height: 18px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၃။</td>
+<td style="width: 207px; height: 18px;">ဦးလှမျိုးဆွေ</td>
+<td style="width: 354.85px; height: 18px;">ဗမာတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၄။</td>
+<td style="width: 207px; height: 18px;">ဗိုလ်မှူးကြီးမြင့်ဝေ</td>
+<td style="width: 354.85px; height: 18px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၅။</td>
+<td style="width: 207px; height: 18px;">ဦးခင်မောင်ဖြူ</td>
+<td style="width: 354.85px; height: 18px;">လမ်းပန်းဆက်သွယ်ရေးနှင့်လျှပ်စစ်ဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၆။</td>
+<td style="width: 207px; height: 18px;">ဦးဘော့စ်ကို</td>
+<td style="width: 354.85px; height: 18px;">စိုက်ပျိုးမွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၇။</td>
+<td style="width: 207px; height: 18px;">ဒေါက်တာအောင်ကျော်ဌေး</td>
+<td style="width: 354.85px; height: 18px;">စည်ပင်သာယာရေးနှင့်လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၈။</td>
+<td style="width: 207px; height: 18px;">ဦးတီရယ်</td>
+<td style="width: 354.85px; height: 18px;">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၉။</td>
+<td style="width: 207px; height: 18px;">ဦးမော်မော်</td>
+<td style="width: 354.85px; height: 18px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၁၀။</td>
+<td style="width: 207px; height: 18px;">ဦးခင်မောင်ဖြူ</td>
+<td style="width: 354.85px; height: 18px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၁၁။</td>
+<td style="width: 207px; height: 18px;">ဦးစိုင်းကျော်ဇံ</td>
+<td style="width: 354.85px; height: 18px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="width: 60px; height: 18px;">၁၂။</td>
+<td style="width: 207px; height: 18px;">ဦးအောင်မောင်း</td>
+<td style="width: 354.85px; height: 18px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 47px;">
+<td style="text-align: center; height: 47px; width: 818.733px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ကရင်ပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">စဉ်</td>
+<td style="height: 18px; width: 222px;">အမည်</td>
+<td style="height: 18px; width: 535.733px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁။</td>
+<td style="height: 18px; width: 222px;">ဒေါ်နန်းခင်ထွေးမြင့်</td>
+<td style="height: 18px; width: 535.733px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၂။</td>
+<td style="height: 18px; width: 222px;">ဦးစောချစ်ခင်</td>
+<td style="height: 18px; width: 535.733px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၃။</td>
+<td style="height: 18px; width: 222px;">&nbsp;</td>
+<td style="height: 18px; width: 535.733px;">ဗမာတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၄။</td>
+<td style="height: 18px; width: 222px;">ဦးမင်းတင်ဝင်း</td>
+<td style="height: 18px; width: 535.733px;">မွန်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၅။</td>
+<td style="height: 18px; width: 222px;">ဦးခွန်မျိုးတင့်</td>
+<td style="height: 18px; width: 535.733px;">ပအိုဝ်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၆။</td>
+<td style="height: 18px; width: 222px;">ဗိုလ်မှူးကြီးမျိုးမင်းနောင်</td>
+<td style="height: 18px; width: 535.733px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၇။</td>
+<td style="height: 18px; width: 222px;">ဦးသန်းနိုင်</td>
+<td style="height: 18px; width: 535.733px;">စီမံကိန်း၊ဘဏ္ဍာရေးနှင့်စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၈။</td>
+<td style="height: 18px; width: 222px;">ဦးစောမြင့်ဦး</td>
+<td style="height: 18px; width: 535.733px;">စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၉။</td>
+<td style="height: 18px; width: 222px;">ဦးစိုးလှိုင်</td>
+<td style="height: 18px; width: 535.733px;">လျှပ်စစ်နှင့်စက်မှုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 24.2px;">
+<td style="height: 24.2px; width: 61px;">၁၀။</td>
+<td style="height: 24.2px; width: 222px;">ဦးစောပြည်သာ</td>
+<td style="height: 24.2px; width: 535.733px;">သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေး၊ သစ်တော၊ သတ္တုနှင့် လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၁။</td>
+<td style="height: 18px; width: 222px;">ဦးဘိုဘိုဝေမောင် (ခ) စောဘိုဘို</td>
+<td style="height: 18px; width: 535.733px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၂။</td>
+<td style="height: 18px; width: 222px;">ဦးမင်းကိုခိုင်</td>
+<td style="height: 18px; width: 535.733px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၃။</td>
+<td style="height: 18px; width: 222px;">ဦးစောချစ်မြင့်လေး</td>
+<td style="height: 18px; width: 535.733px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၄။</td>
+<td style="height: 18px; width: 222px;">ဦးစောလှထွန်း</td>
+<td style="height: 18px; width: 535.733px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 41.2px;">
+<td style="text-align: center; height: 41.2px;" colspan="3" width="724"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ချင်းပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">စဉ်</td>
+<td style="height: 18px;" width="307">အမည်</td>
+<td style="height: 18px;" width="353">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁။</td>
+<td style="height: 18px;" width="307">ဦးဆလိုင်းလျန်လွယ်</td>
+<td style="height: 18px;" width="353">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂။</td>
+<td style="height: 18px;" width="307">ဦးဇိုဘွဲ</td>
+<td style="height: 18px;" width="353">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၃။</td>
+<td style="height: 18px;" width="307">ဗိုလ်မှူးကြီးဟန်ဝင်းအောင်</td>
+<td style="height: 18px;" width="353">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၄။</td>
+<td style="height: 18px;" width="307">ဦးဝီကော</td>
+<td style="height: 18px;" width="353">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၅။</td>
+<td style="height: 18px;" width="307">ဦးမန်ဟင်းဒါးလ်</td>
+<td style="height: 18px;" width="353">စိုက်ပျိုးရေး၊မွေးမြူရေး၊သစ်တောနှင့်သတ္တုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၆။</td>
+<td style="height: 18px;" width="307">ဦးရွှေထီးအိုး</td>
+<td style="height: 18px;" width="353">လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၇။</td>
+<td style="height: 18px;" width="307">ဦးစိုးထက်</td>
+<td style="height: 18px;" width="353">စည်ပင်သာယာရေး၊လျှပ်စစ်နှင့်စက်မှုလက်မှုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၈။</td>
+<td style="height: 18px;" width="307">ဦးပေါင်လွန်းမင့်ထန်</td>
+<td style="height: 18px;" width="353">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၉။</td>
+<td style="height: 18px;" width="307">ဦးဖွေအား</td>
+<td style="height: 18px;" width="353">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၀။</td>
+<td style="height: 18px;" width="307">ဦးထန်ကျုံး(ခ)ဦးဆနီဇာဟိုး</td>
+<td style="height: 18px;" width="353">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၁။</td>
+<td style="height: 18px;" width="307">ဦးလာလ်တင်မန်း(ခ)ဦးဒေးဗစ်လာလ်တင်မောင်</td>
+<td style="height: 18px;" width="353">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 42.2px;">
+<td style="text-align: center; height: 42.2px; width: 650.3px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ စစ်ကိုင်းတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">စဉ်</td>
+<td style="height: 18px; width: 228px;">အမည်</td>
+<td style="height: 18px; width: 362.3px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁။</td>
+<td style="height: 18px; width: 228px;">ဒေါက်တာမြင့်နိုင်</td>
+<td style="height: 18px; width: 362.3px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၂။</td>
+<td style="height: 18px; width: 228px;">ဦးသန်း</td>
+<td style="height: 18px; width: 362.3px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၃။</td>
+<td style="height: 18px; width: 228px;">ဦးကေဆိုင်း</td>
+<td style="height: 18px; width: 362.3px;">ဥက္ကဋ္ဌ၊ နာဂကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၄။</td>
+<td style="height: 18px; width: 228px;">ဒေါ်မွှေးမွှေးခင်</td>
+<td style="height: 18px; width: 362.3px;">ရှမ်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၅။</td>
+<td style="height: 18px; width: 228px;">ဦးလာလ်ထောင်ထန်း</td>
+<td style="height: 18px; width: 362.3px;">ချင်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၆။</td>
+<td style="height: 18px; width: 228px;">ဗိုလ်မှူးကြီးသန်းထွန်းအောင်</td>
+<td style="height: 18px; width: 362.3px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၇။</td>
+<td style="height: 18px; width: 228px;">ဦးစိုးဦး</td>
+<td style="height: 18px; width: 362.3px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၈။</td>
+<td style="height: 18px; width: 228px;">ဦးကမ်ဇာမုံ</td>
+<td style="height: 18px; width: 362.3px;">စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၉။</td>
+<td style="height: 18px; width: 228px;">ဦးသန်းညွန့်ဝင်း</td>
+<td style="height: 18px; width: 362.3px;">လျှပ်စစ်၊စက်မှုနှင့်လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၀။</td>
+<td style="height: 18px; width: 228px;">ဦးမြင့်ကြည်</td>
+<td style="height: 18px; width: 362.3px;">စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၁။</td>
+<td style="height: 18px; width: 228px;">ဒေါက်တာဇော်ဝင်း</td>
+<td style="height: 18px; width: 362.3px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၂။</td>
+<td style="height: 18px; width: 228px;">ဦးမိုးကျော်သူ</td>
+<td style="height: 18px; width: 362.3px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၃။</td>
+<td style="height: 18px; width: 228px;">ဦးခင်မောင်လှ</td>
+<td style="height: 18px; width: 362.3px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၄။</td>
+<td style="height: 18px; width: 228px;">ဦးစိုးလွင်</td>
+<td style="height: 18px; width: 362.3px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၅။</td>
+<td style="height: 18px; width: 228px;">ဦးမျိုးမောင်</td>
+<td style="height: 18px; width: 362.3px;">တရားလွှတ်တော်တရားသူကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၆။</td>
+<td style="height: 18px; width: 228px;">ဦးဖြိုးဖြိုး</td>
+<td style="height: 18px; width: 362.3px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width:100%" border=”1”>
+<tbody>
+<tr style="height: 40.2px;">
+<td style="text-align: center; height: 40.2px; width: 698.3px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ တနင်္သာရီတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">စဉ်</td>
+<td style="height: 18px; width: 213px;">အမည်</td>
+<td style="height: 18px; width: 424.3px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁။</td>
+<td style="height: 18px; width: 213px;">ဦးမြင့်မောင်</td>
+<td style="height: 18px; width: 424.3px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၂။</td>
+<td style="height: 18px; width: 213px;">ဦးခင်မောင်အေး</td>
+<td style="height: 18px; width: 424.3px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၃။</td>
+<td style="height: 18px; width: 213px;">ဦးစောလုကာ</td>
+<td style="height: 18px; width: 424.3px;">ကရင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၄။</td>
+<td style="height: 18px; width: 213px;">ဗိုလ်မှူးကြီးကျော်ဇေယျ</td>
+<td style="height: 18px; width: 424.3px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၅။</td>
+<td style="height: 18px; width: 213px;">ဒေါ်ရီရီချို</td>
+<td style="height: 18px; width: 424.3px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၆။</td>
+<td style="height: 18px; width: 213px;">ဦးဟိုပင်</td>
+<td style="height: 18px; width: 424.3px;">လူမှုရေးနှင့်စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၇။</td>
+<td style="height: 18px; width: 213px;">ဦးလှထွေး</td>
+<td style="height: 18px; width: 424.3px;">သယံဇာတနှင့်ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၈။</td>
+<td style="height: 18px; width: 213px;">ဦးအောင်သူရ</td>
+<td style="height: 18px; width: 424.3px;">လျှပ်စစ်နှင့်စွမ်းအင်ဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၉။</td>
+<td style="height: 18px; width: 213px;">ဦးမြင့်စန်း</td>
+<td style="height: 18px; width: 424.3px;">စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၀။</td>
+<td style="height: 18px; width: 213px;">ဦးစိုးမြင့်</td>
+<td style="height: 18px; width: 424.3px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၁။</td>
+<td style="height: 18px; width: 213px;">ဦးကျော်မင်း(ခ)ဦးဖိုးမင်း</td>
+<td style="height: 18px; width: 424.3px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၂။</td>
+<td style="height: 18px; width: 213px;">ဦးသိန်းထွန်း</td>
+<td style="height: 18px; width: 424.3px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၃။</td>
+<td style="height: 18px; width: 213px;">ဒေါ်ပိုက်ပိုက်အေး</td>
+<td style="height: 18px; width: 424.3px;">တရားလွှတ်တော်တရားသူကြီးချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width:100%;" border=”1”>
+<tbody>
+<tr style="height: 42.2px;">
+<td style="text-align: center; height: 42.2px; width: 810px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ပဲခူးတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">စဉ်</td>
+<td style="height: 18px; width: 183.9px;">အမည်</td>
+<td style="height: 18px; width: 559px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁။</td>
+<td style="height: 18px; width: 183.9px;">ဦးဝင်းသိန်း</td>
+<td style="height: 18px; width: 559px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၂။</td>
+<td style="height: 18px; width: 183.9px;">ဦးခင်မောင်ရင်</td>
+<td style="height: 18px; width: 559px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၃။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်နော်ပွယ်ဆေး</td>
+<td style="height: 18px; width: 559px;">ကရင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၄။</td>
+<td style="height: 18px; width: 183.9px;">ဗိုလ်မှူးကြီးလှမျိုးရွှေ</td>
+<td style="height: 18px; width: 559px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၅။</td>
+<td style="height: 18px; width: 183.9px;">ဦးအောင်ဇော်နိုင်</td>
+<td style="height: 18px; width: 559px;">စိုက်ပျိုးရေးနှင့်မွေးမြူရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၆။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါက်တာစောညိုဝင်း</td>
+<td style="height: 18px; width: 559px;">သယံဇာတ၊သစ်တောနှင့်သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေနှင့် စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၇။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်ညွန့်ညွန့်ဌေး</td>
+<td style="height: 18px; width: 559px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၈။</td>
+<td style="height: 18px; width: 183.9px;">ဦးညွန့်ရွှေ</td>
+<td style="height: 18px; width: 559px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၉။</td>
+<td style="height: 18px; width: 183.9px;">ဦးသန်းဝင်း</td>
+<td style="height: 18px; width: 559px;">စက်မှုလျှပ်စစ်နှင့်လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၀။</td>
+<td style="height: 18px; width: 183.9px;">ဦးထွန်းထွန်းဦး</td>
+<td style="height: 18px; width: 559px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၁။</td>
+<td style="height: 18px; width: 183.9px;">ဦးအုန်းမြင့်</td>
+<td style="height: 18px; width: 559px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၂။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်သန်းဝင်း</td>
+<td style="height: 18px; width: 559px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၃။</td>
+<td style="height: 18px; width: 183.9px;">ဦးမောင်မောင်အေး</td>
+<td style="height: 18px; width: 559px;">တရားလွှတ်တော်တရားသူကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၄။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်ခင်မာဆွေ</td>
+<td style="height: 18px; width: 559px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၅။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်လွင်လွင်အေးကျော်</td>
+<td style="height: 18px; width: 559px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 67.1px;">၁၆။</td>
+<td style="height: 18px; width: 183.9px;">ဒေါ်အေးအေးသန့်</td>
+<td style="height: 18px; width: 559px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 45.2px;">
+<td style="text-align: center; height: 45.2px; width: 635.317px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ မကွေးတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">စဉ်</td>
+<td style="height: 18px; width: 216px;">အမည်</td>
+<td style="height: 18px; width: 358.317px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁။</td>
+<td style="height: 18px; width: 216px;">ဒေါက်တာအောင်မိုးညို</td>
+<td style="height: 18px; width: 358.317px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၂။</td>
+<td style="height: 18px; width: 216px;">ဦးတာ</td>
+<td style="height: 18px; width: 358.317px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၃။</td>
+<td style="height: 18px; width: 216px;">ဦးလှထွန်း</td>
+<td style="height: 18px; width: 358.317px;">ချင်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၄။</td>
+<td style="height: 18px; width: 216px;">ဗိုလ်မှူးကြီးမင်းဦး</td>
+<td style="height: 18px; width: 358.317px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၅။</td>
+<td style="height: 18px; width: 216px;">ဦးတင်နွယ်ဦး</td>
+<td style="height: 18px; width: 358.317px;">ဆောက်လုပ်ရေး၊ပို့ဆောင်ဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၆။</td>
+<td style="height: 18px; width: 216px;">ဦးဝင်းမော်ဌေး</td>
+<td style="height: 18px; width: 358.317px;">စိုက်ပျိုးမွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၇။</td>
+<td style="height: 18px; width: 216px;">ဦးမြင့်ဇော်</td>
+<td style="height: 18px; width: 358.317px;">သယံဇာတ၊သဘာဝပတ်ဝန်းကျင်၊လျှပ်စစ်နှင့်စွမ်းအင်ဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၈။</td>
+<td style="height: 18px; width: 216px;">ဦးဇော်မင်း</td>
+<td style="height: 18px; width: 358.317px;">စီမံကိန်း၊ဘဏ္ဍာရေးနှင့်စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၉။</td>
+<td style="height: 18px; width: 216px;">ဦးမြင့်ဆွေ</td>
+<td style="height: 18px; width: 358.317px;">အလုပ်သမားရေးရာဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၀။</td>
+<td style="height: 18px; width: 216px;">ဒေါက်တာခင်မောင်အေး</td>
+<td style="height: 18px; width: 358.317px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၁။</td>
+<td style="height: 18px; width: 216px;">ဦးမြင့်အောင်</td>
+<td style="height: 18px; width: 358.317px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၂။</td>
+<td style="height: 18px; width: 216px;">ဦးဆန်းလင်း</td>
+<td style="height: 18px; width: 358.317px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၃။</td>
+<td style="height: 18px; width: 216px;">ဦးလှသန်း</td>
+<td style="height: 18px; width: 358.317px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 43px;">
+<td style="text-align: center; height: 43px; width: 693.033px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ မန္တလေးတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 22.4px;">
+<td style="height: 22.4px; width: 34px;">စဉ်</td>
+<td style="height: 22.4px; width: 305px;">အမည်</td>
+<td style="height: 22.4px; width: 354.033px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁။</td>
+<td style="height: 18px; width: 305px;">ဒေါက်တာဇော်မြင့်မောင်</td>
+<td style="height: 18px; width: 354.033px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၂။</td>
+<td style="height: 18px; width: 305px;">ဦးအောင်ကျော်ဦး</td>
+<td style="height: 18px; width: 354.033px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၃။</td>
+<td style="height: 18px; width: 305px;">ဒေါက်တာရဲလွင်</td>
+<td style="height: 18px; width: 354.033px;">စည်ပင်သာယာရေးဝန်ကြီးဌာနမြို့တော်ဝန်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၄။</td>
+<td style="height: 18px; width: 305px;">ဦးစိုင်းပန်ဆိုင် (ခ) ဦးစိုင်းထွန်းစိန် (ခ) ဦးကျော်စိန်</td>
+<td style="height: 18px; width: 354.033px;">ရှမ်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၅။</td>
+<td style="height: 18px; width: 305px;">ဗိုလ်မှူးကြီးကျော်ကျော်မင်း</td>
+<td style="height: 18px; width: 354.033px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၆။</td>
+<td style="height: 18px; width: 305px;">ဒေါက်တာစိုးသန်း (ခ)ဦးကျော်စိုးသန်း</td>
+<td style="height: 18px; width: 354.033px;">စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၇။</td>
+<td style="height: 18px; width: 305px;">ဦးဇာနည်အောင်</td>
+<td style="height: 18px; width: 354.033px;">လျှပ်စစ်၊စွမ်းအင်နှင့်ဆောက်လုပ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၈။</td>
+<td style="height: 18px; width: 305px;">ဦးမျိုးသစ်(ခ)ဦးပါလေး</td>
+<td style="height: 18px; width: 354.033px;">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၉။</td>
+<td style="height: 18px; width: 305px;">ဦးမြတ်သူ</td>
+<td style="height: 18px; width: 354.033px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁၀။</td>
+<td style="height: 18px; width: 305px;">ဦးအောင်ကြည်</td>
+<td style="height: 18px; width: 354.033px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁၁။</td>
+<td style="height: 18px; width: 305px;">ဦးအောင်ဝင်း</td>
+<td style="height: 18px; width: 354.033px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁၂။</td>
+<td style="height: 18px; width: 305px;">ဒေါ်ခင်အေးဆွေ</td>
+<td style="height: 18px; width: 354.033px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">&nbsp;၁၃။</td>
+<td style="height: 18px; width: 305px;">ဒေါ်လှမြင့်</td>
+<td style="height: 18px; width: 354.033px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁၄။</td>
+<td style="height: 18px; width: 305px;">ဦးခင်မောင်ထွန်း</td>
+<td style="height: 18px; width: 354.033px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 34px;">၁၅။</td>
+<td style="height: 18px; width: 305px;">ဦးမြင့်ဆန်း</td>
+<td style="height: 18px; width: 354.033px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 42.2px;">
+<td style="text-align: center; height: 42.2px; width: 811px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ မွန်ပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">စဉ်</td>
+<td style="height: 18px; width: 292.717px;">အမည်</td>
+<td style="height: 18px; width: 457.283px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါက်တာအေးဇံ</td>
+<td style="height: 18px; width: 457.283px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၂။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါ်တင်အိ</td>
+<td style="height: 18px; width: 457.283px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၃။</td>
+<td style="height: 18px; width: 292.717px;">ဦးရွှေမြင့်</td>
+<td style="height: 18px; width: 457.283px;">ဗမာတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၄။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါ်စံဝင့်ခိုင်</td>
+<td style="height: 18px; width: 457.283px;">ပအိုဝ်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၅။</td>
+<td style="height: 18px; width: 292.717px;">ဦးအောင်မြင့်ခိုင်</td>
+<td style="height: 18px; width: 457.283px;">ကရင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၆။</td>
+<td style="height: 18px; width: 292.717px;">ဗိုလ်မှူးကြီး နေထွဋ်ဦး</td>
+<td style="height: 18px; width: 457.283px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၇။</td>
+<td style="height: 18px; width: 292.717px;">ဦးလှထွန်း</td>
+<td style="height: 18px; width: 457.283px;">လျှပ်စစ်၊စွမ်းအင်နှင့်စက်မှုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၈။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါက်တာထိန်လင်း</td>
+<td style="height: 18px; width: 457.283px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၉။</td>
+<td style="height: 18px; width: 292.717px;">ဦးထွန်းဌေး</td>
+<td style="height: 18px; width: 457.283px;">စိုက်ပျိုးမွေးမြူရေးနှင့်ပို့ဆောင်ဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၀။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါက်တာမင်းကြည်ဝင်း (ခ) နိုင်ကြည်ဝင်း</td>
+<td style="height: 18px; width: 457.283px;">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၁။</td>
+<td style="height: 18px; width: 292.717px;">ဦးဝဏ္ဏကျော်</td>
+<td style="height: 18px; width: 457.283px;">စီမံကိန်းနှင့် ဘဏ္ဍာရေးဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၂။</td>
+<td style="height: 18px; width: 292.717px;">ဦးထွန်းမင်းအောင်</td>
+<td style="height: 18px; width: 457.283px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၃။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါ်အေးအေးမို့</td>
+<td style="height: 18px; width: 457.283px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၄။</td>
+<td style="height: 18px; width: 292.717px;">ဒေါ်သိန်းသိန်းဦး</td>
+<td style="height: 18px; width: 457.283px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 61px;">၁၅။</td>
+<td style="height: 18px; width: 292.717px;">ဦးမင်းကျော်လွင်</td>
+<td style="height: 18px; width: 457.283px;">စည်ပင်သာယာရေးနှင့်ဆောက်လုပ်ရေးဝန်ကြီးဌာန</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 37.2px;">
+<td style="text-align: center; height: 37.2px; width: 642px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ရခိုင်ပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">စဉ်</td>
+<td style="height: 18px; width: 218px;">အမည်</td>
+<td style="height: 18px; width: 394px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁။</td>
+<td style="height: 18px; width: 218px;">ဦးညီပု</td>
+<td style="height: 18px; width: 394px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၂။</td>
+<td style="height: 18px; width: 218px;">ဦးစံကျော်လှ</td>
+<td style="height: 18px; width: 394px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၃။</td>
+<td style="height: 18px; width: 218px;">ဦးပုန်ဘွေ</td>
+<td style="height: 18px; width: 394px;">ချင်းတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၄။</td>
+<td style="height: 18px; width: 218px;">ဗိုလ်မှူးကြီးမင်းသန်း</td>
+<td style="height: 18px; width: 394px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၅။</td>
+<td style="height: 18px; width: 218px;">ဦးကျော်အေးသိန်း</td>
+<td style="height: 18px; width: 394px;">ဘဏ္ဍာရေး၊အခွန်၊စီမံကိန်းနှင့်စီးပွားရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၆။</td>
+<td style="height: 18px; width: 218px;">ဦးကျော်လွင်</td>
+<td style="height: 18px; width: 394px;">စိုက်ပျိုးရေး၊မွေးမြူရေး၊သစ်တောနှင့်သတ္တုတွင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၇။</td>
+<td style="height: 18px; width: 218px;">ဦးအောင်ကျော်ဇံ</td>
+<td style="height: 18px; width: 394px;">လျှပ်စစ်၊ စက်မှုနှင့်လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၈။</td>
+<td style="height: 18px; width: 218px;">ဦးဝင်းမြင့်</td>
+<td style="height: 18px; width: 394px;">စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၉။</td>
+<td style="height: 18px; width: 218px;">ဒေါက်တာချမ်းသာ</td>
+<td style="height: 18px; width: 394px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁၀။</td>
+<td style="height: 18px; width: 218px;">ဦးကျော်လှထွန်း</td>
+<td style="height: 18px; width: 394px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁၁။</td>
+<td style="height: 18px; width: 218px;">ဒေါ်ယဉ်လှ</td>
+<td style="height: 18px; width: 394px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁၂။</td>
+<td style="height: 18px; width: 218px;">ဒေါ်ဝါဝါထွန်း</td>
+<td style="height: 18px; width: 394px;">တရားလွှတ်တော်တရားသူကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁၃။</td>
+<td style="height: 18px; width: 218px;">ဒေါ်နွယ်နွယ်ခိုင်</td>
+<td style="height: 18px; width: 394px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 30px;">၁၄။</td>
+<td style="height: 18px; width: 218px;">ဦးအောင်ထွန်းသိန်း</td>
+<td style="height: 18px; width: 394px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 40.2px;">
+<td style="text-align: center; height: 40.2px; width: 60px;">&nbsp;</td>
+<td style="text-align: center; height: 40.2px; width: 553.85px;" colspan="2"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ရန်ကုန်တိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">စဉ်</td>
+<td style="height: 18px; width: 163px;">အမည်</td>
+<td style="height: 18px; width: 390.85px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁။</td>
+<td style="height: 18px; width: 163px;">ဦးဖြိုးမင်းသိန်း</td>
+<td style="height: 18px; width: 390.85px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၂။</td>
+<td style="height: 18px; width: 163px;">ဦးတင်မောင်ထွန်း</td>
+<td style="height: 18px; width: 390.85px;">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၃။</td>
+<td style="height: 18px; width: 163px;">ဦးမောင်မောင်စိုး</td>
+<td style="height: 18px; width: 390.85px;">မြို့တော်ဝန်၊စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၄။</td>
+<td style="height: 18px; width: 163px;">နော်ပန်းသဉ္ဇာမျိုး</td>
+<td style="height: 18px; width: 390.85px;">ကရင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၅။</td>
+<td style="height: 18px; width: 163px;">ဦးဇော်အေးမောင်</td>
+<td style="height: 18px; width: 390.85px;">ရခိုင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၆။</td>
+<td style="height: 18px; width: 163px;">ဗိုလ်မှူးကြီးအောင်စိုးမိုး</td>
+<td style="height: 18px; width: 390.85px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၇။</td>
+<td style="height: 18px; width: 163px;">ဦးရဲမင်းဦး</td>
+<td style="height: 18px; width: 390.85px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၈။</td>
+<td style="height: 18px; width: 163px;">ဦးဟံထွန်း</td>
+<td style="height: 18px; width: 390.85px;">စိုက်ပျိုးရေး၊မွေးမြူရေး၊သစ်တောနှင့်စွမ်းအင်ဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၉။</td>
+<td style="height: 18px; width: 163px;">ဒေါ်နီလာကျော်</td>
+<td style="height: 18px; width: 390.85px;">လျှပ်စစ်စက်မှုလက်မှုနှင့်လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၀။</td>
+<td style="height: 18px; width: 163px;">ဦးနိုင်ငံလင်း</td>
+<td style="height: 18px; width: 390.85px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၁။</td>
+<td style="height: 18px; width: 163px;">ဒေါ်မိုးမိုးစုကြည်</td>
+<td style="height: 18px; width: 390.85px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၂။</td>
+<td style="height: 18px; width: 163px;">ဒေါ်ခင်မျိုးကြည်</td>
+<td style="height: 18px; width: 390.85px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၃။</td>
+<td style="height: 18px; width: 163px;">ဒေါ်ခင်သန်းလှ</td>
+<td style="height: 18px; width: 390.85px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၄။</td>
+<td style="height: 18px; width: 163px;">ဦးလှအေး</td>
+<td style="height: 18px; width: 390.85px;">တရားလွှတ်တော်တရားသူကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 60px;">၁၅။</td>
+<td style="height: 18px; width: 163px;">ဒေါ်ချိုမာလာ</td>
+<td style="height: 18px; width: 390.85px;">တရားလွှတ်တော်တရားသူကြီး</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 45.2px;">
+<td style="text-align: center; height: 45.2px;" colspan="3" width="653"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ရှမ်းပြည်နယ်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">စဉ်</td>
+<td style="height: 18px;" width="201">အမည်</td>
+<td style="height: 18px;" width="388">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁။</td>
+<td style="height: 18px;" width="201">ဒေါက်တာလင်းထွဋ်</td>
+<td style="height: 18px;" width="388">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂။</td>
+<td style="height: 18px;" width="201">ဦးစိုင်းလုံးဆိုင်</td>
+<td style="height: 18px;" width="388">လွှတ်တော်ဥက္ကဋ္ဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၃။</td>
+<td style="height: 18px;" width="201">ဦးခွန်ထွန်းလူ(ခ)ဒီကီ</td>
+<td style="height: 18px;" width="388">ဥက္ကဋ္ဌ၊ &ldquo;ဝ&rdquo;ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၄။</td>
+<td style="height: 18px;" width="201">ဦးကျောက်တယ်ချန်</td>
+<td style="height: 18px;" width="388">ဥက္ကဋ္ဌ၊ ကိုးကန့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၅။</td>
+<td style="height: 18px;" width="201">ဦးဝင်းကျော်(ခ)ဦးအိုက်မန်း</td>
+<td style="height: 18px;" width="388">ဥက္ကဋ္ဌ၊ ပလောင်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၆။</td>
+<td style="height: 18px;" width="201">ဦးခွန်စံလွင်</td>
+<td style="height: 18px;" width="388">ဥက္ကဋ္ဌ၊ ပအိုဝ်းကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၇။</td>
+<td style="height: 18px;" width="201">ဦးအာကာလင်း</td>
+<td style="height: 18px;" width="388">ဥက္ကဋ္ဌ၊ ဓနုကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၈။</td>
+<td style="height: 18px;" width="201">ဒေါက်တာအောင်သန်းမောင်</td>
+<td style="height: 18px;" width="388">ဗမာတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၉။</td>
+<td style="height: 18px;" width="201">ဦးဇုတ်ဒေါင်</td>
+<td style="height: 18px;" width="388">ကချင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၀။</td>
+<td style="height: 18px;" width="201">ဦးဂူဆာ</td>
+<td style="height: 18px;" width="388">လီဆူတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၁။</td>
+<td style="height: 18px;" width="201">ဦးယောသပ်</td>
+<td style="height: 18px;" width="388">လားဟူတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၂။</td>
+<td style="height: 18px;" width="201">ဦးအာဗေလှ</td>
+<td style="height: 18px;" width="388">အာခါတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၃။</td>
+<td style="height: 18px;" width="201">ဒေါက်တာထွန်းလှိုင်</td>
+<td style="height: 18px;" width="388">အင်းသားတိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၄။</td>
+<td style="height: 18px;" width="201">ဦးခွန်အေးမောင်</td>
+<td style="height: 18px;" width="388">ကယန်း(ခ)ပဒေါင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၅။</td>
+<td style="height: 18px;" width="201">ဗိုလ်မှူးကြီးလှဦး</td>
+<td style="height: 18px;" width="388">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၆။</td>
+<td style="height: 18px;" width="201">ဦးစိုင်းလုံကျော်</td>
+<td style="height: 18px;" width="388">စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၇။</td>
+<td style="height: 18px;" width="201">ဦးခွန်ရဲထွေး</td>
+<td style="height: 18px;" width="388">လမ်းပန်းဆက်သွယ်ရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၈။</td>
+<td style="height: 18px;" width="201">ဒေါက်တာညီညီအောင်</td>
+<td style="height: 18px;" width="388">သယံဇာတနှင့်သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁၉။</td>
+<td style="height: 18px;" width="201">ဦးစိုင်းရှဲန်တစ်လုံ</td>
+<td style="height: 18px;" width="388">လျှပ်စစ်၊စွမ်းအင်နှင့်စက်မှုဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂၀။</td>
+<td style="height: 18px;" width="201">ဦးစိုးညွန့်လွင်</td>
+<td style="height: 18px;" width="388">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂၁။</td>
+<td style="height: 18px;" width="201">ဒေါက်တာမျိုးထွန်း</td>
+<td style="height: 18px;" width="388">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂၂။</td>
+<td style="height: 18px;" width="201">ဦးစိုင်းစွံဆိုင်း</td>
+<td style="height: 18px;" width="388">စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂၃။</td>
+<td style="height: 18px;" width="201">ဦးတင်ဦး</td>
+<td style="height: 18px;" width="388">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂၄။</td>
+<td style="height: 18px;" width="201">ဒေါ်နန်းဝိုဟိန်း</td>
+<td style="height: 18px;" width="388">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 38.2px;">
+<td style="text-align: center; height: 38.2px; width: 667.283px;" colspan="3"><strong>တိုင်းဒေသကြီး/ပြည်နယ် အစိုးရအဖွဲ့ဝင်များ၊ ဧရာဝတီတိုင်းဒေသကြီး</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">စဉ်</td>
+<td style="height: 18px; width: 199px;">အမည်</td>
+<td style="height: 18px; width: 424.283px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁။</td>
+<td style="height: 18px; width: 199px;">ဦးလှမိုးအောင်</td>
+<td style="height: 18px; width: 424.283px;">ဝန်ကြီးချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၂။</td>
+<td style="height: 18px; width: 199px;">ဦးအောင်ကျော်ခိုင်</td>
+<td style="height: 18px; width: 424.283px;">လွှတ်တော်ဥက္ကဌ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၃။</td>
+<td style="height: 18px; width: 199px;">ဂါ့မိုးမြတ်မြတ်သူ</td>
+<td style="height: 18px; width: 424.283px;">ကရင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၄။</td>
+<td style="height: 18px; width: 199px;">ဦးတင်စော</td>
+<td style="height: 18px; width: 424.283px;">ရခိုင်တိုင်းရင်းသားလူမျိုးရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၅။</td>
+<td style="height: 18px; width: 199px;">ဗိုလ်မှူးကြီးကျော်စွာလှိုင်</td>
+<td style="height: 18px; width: 424.283px;">လုံခြုံရေးနှင့်နယ်စပ်ရေးရာဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၆။</td>
+<td style="height: 18px; width: 199px;">ဦးဌေးဝင်း</td>
+<td style="height: 18px; width: 424.283px;">စီမံကိန်းနှင့်ဘဏ္ဍာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၇။</td>
+<td style="height: 18px; width: 199px;">ဦးတင်အောင်ဝင်း</td>
+<td style="height: 18px; width: 424.283px;">စိုက်ပျိုးရေး၊မွေးမြူရေး၊သယံဇာတနှင့်ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၈။</td>
+<td style="height: 18px; width: 199px;">ဦးဝင်းဌေး</td>
+<td style="height: 18px; width: 424.283px;">လျှပ်စစ်၊စွမ်းအင်၊စက်မှုလက်မှုနှင့်လမ်းပန်းဆက်သွယ်ရေး ဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၉။</td>
+<td style="height: 18px; width: 199px;">ဦးကျော်မြင့်</td>
+<td style="height: 18px; width: 424.283px;">စည်ပင်သာယာရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁၀။</td>
+<td style="height: 18px; width: 199px;">ဒေါက်တာလှမြတ်သွေး</td>
+<td style="height: 18px; width: 424.283px;">လူမှုရေးဝန်ကြီး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁၁။</td>
+<td style="height: 18px; width: 199px;">ဒေါက်တာစိုးဝင်း</td>
+<td style="height: 18px; width: 424.283px;">လူဝင်မှုကြီးကြပ်ရေးနှင့်လူ့စွမ်းအားအရင်းအမြစ်ဝန်ကြီးဌာန</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁၂။</td>
+<td style="height: 18px; width: 199px;">ဦးသိန်းရွှေ</td>
+<td style="height: 18px; width: 424.283px;">ဥပဒေချုပ်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁၃။</td>
+<td style="height: 18px; width: 199px;">ဒေါ်စန်းစန်းခိုင်</td>
+<td style="height: 18px; width: 424.283px;">စာရင်းစစ်ချုပ်</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 45.2px;">
+<td style="text-align: center; height: 45.2px; width: 466px;" colspan="3"><strong>ပြည်ထောင်စုနယ်မြေ၊ နေပြည်တော်</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">စဉ်</td>
+<td style="height: 18px; width: 176.033px;">အမည်</td>
+<td style="height: 18px; width: 245.967px;">ရာထူး</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၁။</td>
+<td style="height: 18px; width: 176.033px;">ဒေါက်တာမျိုးအောင်</td>
+<td style="height: 18px; width: 245.967px;">မြို့တော်ဝန်နေပြည်တော်ကောင်စီ(ဥက္ကဋ္ဌ)</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၂။</td>
+<td style="height: 18px; width: 176.033px;">ဗိုလ်မှူးကြီးမင်းနောင်</td>
+<td style="height: 18px; width: 245.967px;">ကောင်စီဝင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၃။</td>
+<td style="height: 18px; width: 176.033px;">ဦးအောင်မြင်ထွန်း</td>
+<td style="height: 18px; width: 245.967px;">ကောင်စီဝင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၄။</td>
+<td style="height: 18px; width: 176.033px;">ဦးတင်ထွန်း</td>
+<td style="height: 18px; width: 245.967px;">ကောင်စီဝင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၅။</td>
+<td style="height: 18px; width: 176.033px;">ဦးအေးမောင်စိန်</td>
+<td style="height: 18px; width: 245.967px;">ကောင်စီဝင်</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px; width: 44px;">၆။</td>
+<td style="height: 18px; width: 176.033px;">ဦးညီထွန်း</td>
+<td style="height: 18px; width: 245.967px;">ကောင်စီဝင်</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+
+<table style="width: 100%" border=”1”>
+<tbody>
+<tr style="height: 40.2px;">
+<td style="text-align: center; height: 40.2px;" colspan="3" width="625"><strong>ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရ တိုင်း (သို့မဟုတ်) ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ ဦးစီးအဖွဲ့ ဥက္ကဋ္ဌများ</strong></td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">စဉ်</td>
+<td style="height: 18px;" width="206">အမည်</td>
+<td style="height: 18px;" width="355">ဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၁။</td>
+<td style="height: 18px;" width="206">ဦးကေဆိုင်း</td>
+<td style="height: 18px;" width="355">နာဂကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၂။</td>
+<td style="height: 18px;" width="206">ဦးခွန်စံလွင်</td>
+<td style="height: 18px;" width="355">ပအိုဝ်းကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၃။</td>
+<td style="height: 18px;" width="206">ဦးဝင်းကျော်(ခ)ဦးအိုက်မိန်း</td>
+<td style="height: 18px;" width="355">ပလောင်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၄။</td>
+<td style="height: 18px;" width="206">ဦးကျောက်တယ်ချန်</td>
+<td style="height: 18px;" width="355">ကိုးကန့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၅။</td>
+<td style="height: 18px;" width="206">ဦးခွန်ထွန်းလူ(ခ)ဒီကီ</td>
+<td style="height: 18px;" width="355">&ldquo;ဝ&rdquo;ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရတိုင်း</td>
+</tr>
+<tr style="text-align: center; height: 18px;">
+<td style="height: 18px;" width="64">၆။</td>
+<td style="height: 18px;" width="206">ဦးအာကာလင်း</td>
+<td style="height: 18px;" width="355">ဓနုကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
 `
 
 },
     {
-        id: "23",
+        id: "24",
         roomTitle: "reference links",
         roomMetaTitle: "reference links",
         roomContent: `
