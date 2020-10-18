@@ -3,7 +3,7 @@
     <b-col sm="12" md="12" xs="12" lg="12">
       <div class="welcome_box">
         <span v-for="(sideBarList,index) in sideBarListing" :key="index">
-          <vs-button block :to="sideBarList.link" class="vs-btn" v-show="!sideBarList.mobile">
+          <vs-button block :to="{name : sideBarList.link}" class="vs-btn" v-show="!sideBarList.mobile">
             <i class="btn_icon" :class="sideBarList.icon"></i>
             <span
               style="font-size:15px;font-family: 'Myanmar Sans Pro', sans-serif;"
