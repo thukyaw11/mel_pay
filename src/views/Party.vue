@@ -6,7 +6,7 @@
       </b-col>
       <b-col sm="12" md="9" xs="12" lg="9">
         <b-row>
-          <b-col sm="6" md="6" xs="6" lg="6">
+          <b-col sm="12" md="6" xs="12" lg="6">
             <vs-input
               type="text"
               state="primary"
@@ -15,9 +15,9 @@
               v-model="search"
             ></vs-input>
           </b-col>
-          <b-col sm="6" md="6" xs="6" lg="6">
-              <facebook-button style="float:left" shareDescription="Where" :url="getShareableUrl()"></facebook-button>
-              <messanger-button style="float:left" shareDescription="Where voters meet" :url="getShareableUrl()"></messanger-button>
+          <b-col sm="12" md="6" xs="12" lg="6">
+              <facebook-button style="float:left" shareDescription="Where" :url="getShareableUrl()" btnText="share"></facebook-button>
+              <messanger-button style="float:left" shareDescription="Where voters meet" :url="getShareableUrl()" btnText="share"></messanger-button>
           </b-col>
         </b-row>
       </b-col>
